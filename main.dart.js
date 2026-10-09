@@ -398,7 +398,7 @@ break
 default:s=null}s=A.a2(s,t.N)
 return s},
 bsr(){var s=A.ec().b,r=s==null?null:s.canvasKitVariant
-s=A.bvi(A.bls(B.Xu,r==null?"auto":r))
+s=A.bvi(A.bls(B.Xt,r==null?"auto":r))
 return new A.aj(s,new A.b_d(),A.aa(s).i("aj<1,j>"))},
 bux(a,b){return b+a},
 aaC(){var s=0,r=A.r(t.m),q,p,o,n
@@ -12781,7 +12781,7 @@ case 4:s=l.a
 s===$&&A.a()
 s=A.ca(s,200)
 r=A.ca(A.afq(l,B.vX,B.WD),24)
-q=A.ca(A.afq(l,B.vX,B.XI),32)
+q=A.ca(A.afq(l,B.vX,B.XH),32)
 p=A.ca(l.a,10)
 o=A.ca(l.a,12)
 l.d===$&&A.a()
@@ -12791,8 +12791,8 @@ break
 case 5:s=l.a
 s===$&&A.a()
 s=A.ca(A.GT(s+240),40)
-r=A.ca(A.afq(l,B.w_,B.YJ),24)
-q=A.ca(A.afq(l,B.w_,B.YK),32)
+r=A.ca(A.afq(l,B.w_,B.YI),24)
+q=A.ca(A.afq(l,B.w_,B.YJ),32)
 p=A.ca(l.a+15,8)
 o=A.ca(l.a+15,12)
 l.d===$&&A.a()
@@ -23232,7 +23232,7 @@ r.toString
 A.f5(r)
 q=a.h(0,"swipeEdge")
 q.toString
-return new A.qw(s,r,B.Xi[A.dZ(q)])},
+return new A.qw(s,r,B.Xh[A.dZ(q)])},
 JD:function JD(a,b){this.a=a
 this.b=b},
 qw:function qw(a,b,c){this.a=a
@@ -25680,7 +25680,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 blg(a,b){var s=A.aa(b).i("aj<1,eV>")
 s=A.a2(new A.aj(b,new A.agl(),s),s.i("av.E"))
-return A.bkx(!0,s,a,B.Y7,!0,B.Pa,null)},
+return A.bkx(!0,s,a,B.Y6,!0,B.Pa,null)},
 b32(a){var s
 try{a.eI()}catch(s){a.Z_()}a.w=B.ajo
 try{a.bH(A.bve())}catch(s){}},
@@ -26339,7 +26339,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 yW(a,b){var s
-if(a.j(0,b))return new A.Sv(B.Y6)
+if(a.j(0,b))return new A.Sv(B.Y5)
 s=A.b([],t.fJ)
 A.cO()
 a.qt(new A.akD(b,A.aK(t.B),s))
@@ -30129,7 +30129,7 @@ aj7:function aj7(){},
 akW:function akW(a,b){this.d=a
 this.w=b},
 bly(a){var s=new A.ah3(a)
-return new A.nE(A.al(a.h(0,"id")),A.aQ(a.h(0,"friendly_name")),B.b.pQ(B.YW,new A.ah_(a),new A.ah0()),B.b.pQ(B.Xm,new A.ah1(a),new A.ah2()),s.$1("created_at"),s.$1("updated_at"))},
+return new A.nE(A.al(a.h(0,"id")),A.aQ(a.h(0,"friendly_name")),B.b.pQ(B.YV,new A.ah_(a),new A.ah0()),B.b.pQ(B.Xl,new A.ah1(a),new A.ah2()),s.$1("created_at"),s.$1("updated_at"))},
 lZ:function lZ(a,b){this.a=a
 this.b=b},
 kM:function kM(a,b){this.a=a
@@ -32339,7 +32339,7 @@ return A.h(A.jU(),$async$Jd)
 case 4:o=l.ma(k.jK(b,new A.axg()))
 s=o==null?5:7
 break
-case 5:b=B.XY
+case 5:b=B.XX
 s=6
 break
 case 7:s=8
@@ -34901,7 +34901,7 @@ return r},
 beu(a,b){var s
 if(b==null)return null
 if(a[0]==="_")return A.bwJ(b,B.c.cf(a,1))
-switch(A.Vk(B.YV,new A.b0K(a))){case B.Fj:return A.bwK(b)
+switch(A.Vk(B.YU,new A.b0K(a))){case B.Fj:return A.bwK(b)
 case B.FA:case B.FB:case B.Fo:return A.bwL(b)
 case B.FC:case B.FD:case B.FF:case B.Fp:return A.bwN(b)
 case B.Fl:case B.Fm:return A.bwO(b)
@@ -36203,7 +36203,7 @@ ajm(a){var s=a/100
 return(s<=0.0031308?s*12.92:1.055*Math.pow(s,0.4166666666666667)-0.055)*255},
 b3m(a){var s=Math.pow(Math.abs(a),0.42)
 return A.uO(a)*400*s/(s+27.13)},
-b3n(a){var s=A.b3H(a,B.YI),r=A.b3m(s[0]),q=A.b3m(s[1]),p=A.b3m(s[2])
+b3n(a){var s=A.b3H(a,B.YH),r=A.b3m(s[0]),q=A.b3m(s[1]),p=A.b3m(s[2])
 return Math.atan2((r+q-2*p)/9,(11*r+-12*q+p)/11)},
 bm3(a,b){var s,r,q,p,o,n=B.h.aX(b,4)<=1?0:100,m=(b&1)===0?0:100
 if(b<4){s=(a-n*0.7152-m*0.0722)/0.2126
@@ -37383,7 +37383,7 @@ Cj(){var s=this.as
 s===$&&A.a()
 return s},
 Ck(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.Y5
+if(a<0||b<0)return B.Y4
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -37402,7 +37402,7 @@ l.push(new A.fy(n[0],n[1],n[2],n[3],B.oM[m]))}return l},
 dK(a){var s,r,q=this.a
 q===$&&A.a()
 s=q.a.getGlyphPositionAtCoordinate(a.a,a.b)
-r=B.Xl[J.aO(s.affinity.value)]
+r=B.Xk[J.aO(s.affinity.value)]
 return new A.aE(J.aO(s.pos),r)},
 UA(a){var s=this.a
 s===$&&A.a()
@@ -37649,7 +37649,7 @@ j(a,b){if(b==null)return!1
 if(!(b instanceof A.Fh))return!1
 return b.d===this.d&&b.b==this.b&&A.ip(b.c,this.c)},
 gC(a){var s=this,r=s.c
-return A.Z(s.d,s.a,s.b,A.bU(r==null?B.XV:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.Z(s.d,s.a,s.b,A.bU(r==null?B.XU:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 $ije:1}
 A.E0.prototype={
 a5e(a,b){var s=this.Yf(a),r=A.bu(new A.acJ(this,b,s))
@@ -42836,14 +42836,14 @@ api(){var s=this,r=s.r
 if(r==null){r=s.r=new A.RA(s.c)
 r.d=new A.agV(s)}return r},
 TB(a){var s,r=this
-if(B.b.m(B.YX,a.type)){s=r.api()
+if(B.b.m(B.YW,a.type)){s=r.api()
 s.toString
 s.saI_(J.fE(r.c.$0(),B.eD))
 if(r.f!==B.uH){r.f=B.uH
 r.a0D()}}return r.d.a.adt(a)},
 a0D(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-ads(a){if(B.b.m(B.XM,a))return this.f===B.km
+ads(a){if(B.b.m(B.XL,a))return this.f===B.km
 return!1}}
 A.agW.prototype={
 $0(){return new A.aS(Date.now(),0,!1)},
@@ -50238,7 +50238,7 @@ if(s==null||s.length<a)s=this.c=new Uint8Array(a)
 return J.kx(B.a1.gcG(s),s.byteOffset,a)}}
 A.aD9.prototype={
 F(a,b){this.M9(b,0,J.c8(b),!1)},
-aY(){this.M9(B.XT,0,0,!0)}}
+aY(){this.M9(B.XS,0,0,!0)}}
 A.aCG.prototype={
 M9(a,b,c,d){var s=this.b.a7r(a,b,c,d)
 if(s!=null)this.a.F(0,A.iN(s,0,null))
@@ -54091,7 +54091,7 @@ q=i.b.x
 q===$&&A.a()
 p=B.d.eW(8*q)
 for(q=i.e,o=8*q,n=i.f,q=q<1,m=i.c,l=0;l<o;++l){k=B.h.aX(l-p,8)
-s.r=m.aq(q?147:B.Yu[k]).gp()
+s.r=m.aq(q?147:B.Yt[k]).gp()
 j=s.eC()
 r.drawRRect(A.n6(n),j)
 j.delete()
@@ -55697,7 +55697,7 @@ r=A.k5(B.a1j,B.m,r==null?1:r)
 r.toString
 q=p.a9(q.gp())
 if(q==null)q=1
-return A.b4v(A.baU(null,B.p,new A.zf(q,B.Xf,new A.cU(B.Jy,this.e)),s,1,B.a9p),r)}}
+return A.b4v(A.baU(null,B.p,new A.zf(q,B.Xe,new A.cU(B.Jy,this.e)),s,1,B.a9p),r)}}
 A.Qb.prototype={
 l(){var s=this,r=s.bF$
 if(r!=null)r.L(s.gh8())
@@ -59460,7 +59460,7 @@ A.Bu.prototype={
 J(){return"_CornerId."+this.b}}
 A.oZ.prototype={}
 A.zj.prototype={
-nh(){var s,r,q,p=this,o=A.btv(B.XF,new A.ao7(p,p.b.gba().a6(0,p.a.gba()))),n=p.a
+nh(){var s,r,q,p=this,o=A.btv(B.XE,new A.ao7(p,p.b.gba().a6(0,p.a.gba()))),n=p.a
 n.toString
 s=o.a
 r=p.ul(n,s)
@@ -60907,7 +60907,7 @@ p=q.ax
 if(p!=null)p.al()
 q.e0()}this.ah()},
 amM(a,b){var s,r=null,q=A.b([],t.p)
-for(s=0;q.length<7;s=(s+1)%7)q.push(new A.em(!0,new A.jN(B.X,r,r,A.l(B.Yc[s],r,r,r,a,r,r,r),r),r))
+for(s=0;q.length<7;s=(s+1)%7)q.push(new A.em(!0,new A.jN(B.X,r,r,A.l(B.Yb[s],r,r,r,a,r,r,r),r),r))
 return q},
 B(a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1=A.bR(a2,B.S,t.v)
 a1.toString
@@ -63094,7 +63094,7 @@ A.a6s.prototype={
 lz(){return this.cy},
 nQ(a){this.ae()},
 jY(a){a.toString
-return B.XA[A.dZ(a)]},
+return B.Xz[A.dZ(a)]},
 kh(){var s=this.y
 return(s==null?A.t(this).i("an.T").a(s):s).a}}
 A.a6r.prototype={
@@ -66633,7 +66633,7 @@ A.aTj.prototype={
 $0(){return A.b([],t.q1)},
 $S:344}
 A.a1L.prototype={
-gKL(){return B.X0},
+gKL(){return B.X_},
 Qu(a){var s,r=this
 switch(a.a){case 0:s=r.d.ax
 break
@@ -67408,7 +67408,7 @@ return s.b}}
 A.ly.prototype={
 J(){return"_ListTileSlot."+this.b}}
 A.a3N.prototype={
-gKL(){return B.Xw},
+gKL(){return B.Xv},
 Qu(a){var s,r=this
 switch(a.a){case 0:s=r.d
 break
@@ -67735,7 +67735,7 @@ r.f=s.d},
 $S:0}
 A.VP.prototype={
 B(a){var s=this.c.X(0,new A.k(0,40.95))
-return A.baU(A.SY(null,B.O4,!0),B.L,new A.zf(1,B.Yn,new A.cU(B.Jw,B.v)),s,1.25,B.a9r)}}
+return A.baU(A.SY(null,B.O4,!0),B.L,new A.zf(1,B.Ym,new A.cU(B.Jw,B.v)),s,1.25,B.a9r)}}
 A.uN.prototype={
 J(){return"MaterialType."+this.b}}
 A.GQ.prototype={
@@ -68277,7 +68277,7 @@ $R:3,
 $S:283}
 A.WB.prototype={
 ajJ(a){var s=t.Tr
-s=A.a2(new A.aj(B.XE,new A.apU(a),s),s.i("av.E"))
+s=A.a2(new A.aj(B.XD,new A.apU(a),s),s.i("av.E"))
 return s},
 j(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -68440,7 +68440,7 @@ q=this.a
 n=A.xE(new A.dR(new A.ai(0,1/0,48,1/0),new A.a3(B.Qc,new A.d1(B.fn,m,m,q.Q,m),m),m),B.Z,B.y,o)
 return new A.zn(A.b7(m,!0,m,A.fq(!1,m,!0,A.b9R(n,B.P,m,m,m,o),m,!0,m,m,m,m,m,new A.a2l(m,s.y),m,m,m,m,m,this.gSb(),m,m,m,m,m,m,m),!1,m,m,!0,!1,m,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.lq,m,m,m,m,m,m,m,m,B.w,m),m)}}
 A.Cg.prototype={
-S(){return new A.Ns(B.XX,this.$ti.i("Ns<1>"))}}
+S(){return new A.Ns(B.XW,this.$ti.i("Ns<1>"))}}
 A.Ns.prototype={
 ad(){this.an()
 this.a2L()},
@@ -71386,7 +71386,7 @@ gco(){return new A.b3(new A.aWE(this),t.e)},
 gGj(){return 14},
 gIj(){return 14},
 gJb(){return 14},
-gJG(){return B.YS},
+gJG(){return B.YR},
 gx0(){return 31},
 gx4(){return 51},
 gJM(){return B.a99},
@@ -73501,7 +73501,7 @@ n=new A.r8(new A.er(o,l,l,B.aN,l,l,l,l,l,l,b),B.at,B.a6,n,l,l,l,l,B.aL,l)
 n.tr()
 k.push(new A.kn(p,p>=12,n,new A.aHF(m,q)))}return k},
 Xa(a,b){var s,r,q,p,o,n=this,m=null,l=A.b([],t.sK)
-for(s=t.w,r=0;r<12;++r){q=B.Yo[r]
+for(s=t.w,r=0;r<12;++r){q=B.Yn[r]
 p=n.e
 p===$&&A.a()
 o=n.c
@@ -73519,7 +73519,7 @@ o=new A.r8(new A.er(p,m,m,B.aN,m,m,m,m,m,m,b),B.at,B.a6,o,m,m,m,m,B.aL,m)
 o.tr()
 l.push(new A.kn(q.a,!1,o,new A.aHE(n,q)))}return l},
 Xg(a,b){var s,r,q,p,o,n,m=null,l=A.b([],t.sK)
-for(s=t.w,r=0;r<12;++r){q=B.Xh[r]
+for(s=t.w,r=0;r<12;++r){q=B.Xg[r]
 p=q.b
 this.e===$&&A.a()
 o=p<10?"0"+p:B.h.k(p)
@@ -76925,7 +76925,7 @@ return new A.pS(r.a.d4(s.gkd()),r.b,r.c)},
 dK(a){var s=this.b
 return s.a.c.dK(a.a6(0,s.gkd()))},
 vA(){var s,r,q=this.b,p=q.gkd()
-if(!isFinite(p.a)||!isFinite(p.b))return B.XU
+if(!isFinite(p.a)||!isFinite(p.b))return B.XT
 s=q.f
 if(s==null){s=q.a.c.vA()
 q.f=s}if(p.j(0,B.m))r=s
@@ -87320,7 +87320,7 @@ break
 case 1:return A.p(q,r)}})
 return A.q($async$Nn,r)},
 aoV(a,b){var s,r,q,p
-if(a===b)return B.Y4
+if(a===b)return B.Y3
 s=A.b([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.fU(B.io,a)
@@ -89358,7 +89358,7 @@ A.og.prototype={}
 A.X2.prototype={
 o4(a,b){var s,r,q,p,o,n=$.ac.M$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.vz,r=0;r<2;++r){q=B.XO[r]
+for(s=t.vz,r=0;r<2;++r){q=B.XN[r]
 p=n.e
 p.toString
 o=A.b2i(p,q,s)
@@ -89470,7 +89470,7 @@ this.h9()}}
 A.rk.prototype={
 k(a){return"Entry#"+A.bv(this)+"("+this.d.k(0)+")"}}
 A.Dq.prototype={
-S(){return new A.KM(A.aK(t.me),B.Y0,null,null)},
+S(){return new A.KM(A.aK(t.me),B.Y_,null,null)},
 aQ4(a,b){return this.w.$2(a,b)},
 aLV(a,b){return this.x.$2(a,b)}}
 A.KM.prototype={
@@ -89702,7 +89702,7 @@ r=n.gauV()
 q=n.a
 q=q.ch
 q.toString
-l.a=A.blR(!0,A.bac(B.p,r,s,q,A.bf8(),n.gawY(),m,n.gaxo(),B.Y2,!0,"nav",B.ahs),"Navigator Scope",!0,m,m,m,m)}else n.a.toString
+l.a=A.blR(!0,A.bac(B.p,r,s,q,A.bf8(),n.gawY(),m,n.gaxo(),B.Y1,!0,"nav",B.ahs),"Navigator Scope",!0,m,m,m,m)}else n.a.toString
 l.b=null
 s=n.a
 s.toString
@@ -92203,7 +92203,7 @@ h.PE()
 r=h.gaq0()
 q=q.AO
 h.e!==$&&A.aX()
-h.e=new A.Yw(f,new A.cr(B.a00,l),new A.uH(),p,B.dO,0,k,h.gatw(),h.gaty(),r,B.dO,0,j,h.gatq(),h.gats(),r,i,B.XW,s,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.T7(),new A.T7())
+h.e=new A.Yw(f,new A.cr(B.a00,l),new A.uH(),p,B.dO,0,k,h.gatw(),h.gaty(),r,B.dO,0,j,h.gatq(),h.gats(),r,i,B.XV,s,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.T7(),new A.T7())
 return h},
 Eu(a,b){var s,r,q,p=this,o=p.a.c,n=o.a.a.length
 if(n<a.b||n<a.a)return
@@ -95989,7 +95989,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.a6(b)!==A.I(s))return!1
 return b instanceof A.a0&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.dh(null,null)},
-gC(a){return A.Z(this.a,this.b,null,this.d,A.bU(B.Y_),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gC(a){return A.Z(this.a,this.b,null,this.d,A.bU(B.XZ),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.c.dO(B.h.qn(this.a,16).toUpperCase(),5,"0")+")"}}
 A.uk.prototype={
 cA(a){return!this.w.j(0,a.w)},
@@ -97372,7 +97372,7 @@ b=r?a1:a3.fr
 if(b==null)b=a2.b.c.z
 a3=r?a1:a3.fx
 if(a3==null)a3=a2.b.c.Q
-a=new A.GX(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.yn(a1),B.Y3,e===!0,d,c,b,a3,A.bmP(a2))
+a=new A.GX(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.yn(a1),B.Y2,e===!0,d,c,b,a3,A.bmP(a2))
 if(!a.j(0,a0.e))a0.q(new A.aO7(a0,a))},
 He(){if(this.d==null)this.vf()},
 Rh(){this.vf()},
@@ -104115,7 +104115,7 @@ r.G2()
 return s.bp()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gNq(),p=0;p<s.length;s.length===r||(0,A.J)(s),++p)s[p].L(q)
-o.b=B.Y8
+o.b=B.Y7
 o.y=!1
 o.e0()},
 fk(a,b){return a.pG(b)},
@@ -108833,7 +108833,7 @@ s=A.d7(a.c,r,"%0D%0A")
 p=p+'; filename="'+A.d7(s,'"',"%22")+'"'
 return p+"\r\n\r\n"},
 ak5(){var s,r=J.b3x(51,t.S)
-for(s=0;s<51;++s)r[s]=B.Yq[$.bgv().a9T(66)]
+for(s=0;s<51;++s)r[s]=B.Yp[$.bgv().a9T(66)]
 return"dart-http-boundary-"+A.iN(r,0,null)}}
 A.apc.prototype={
 $2(a,b){var s=this.a
@@ -109898,7 +109898,7 @@ A.aoJ.prototype={
 aMe(a,b){var s,r
 if(b!=null){s=A.ba6(b,this.b)
 if(s!=null)return s
-s=A.ba6(b,B.Yx)
+s=A.ba6(b,B.Yw)
 if(s!=null)return s}r=A.bmZ(a)
 this.a.h(0,r)
 s=B.a06.h(0,r)
@@ -110932,7 +110932,7 @@ g=J.br(g)
 while(g.A())i.push(new A.a6q(g.gO(),j))
 B.b.K(h,i)}h.push(B.a6n)
 i=A.b([],e)
-for(g=k.e,m=0;m<9;++m){l=B.WU[m]
+for(g=k.e,m=0;m<9;++m){l=B.Z_[m]
 f=l.a
 s=f===k.a.d?g:j
 r=A.P(a).a6s(B.E)
@@ -111987,7 +111987,7 @@ $S:0}
 A.FM.prototype={
 S(){return new A.a2R()}}
 A.a2R.prototype={
-B(a){var s,r,q=null,p=t.va,o=A.a2(new A.aC(B.X4,new A.aJT(this),p),p.i("M.E"))
+B(a){var s,r,q=null,p=t.va,o=A.a2(new A.aC(B.X3,new A.aJT(this),p),p.i("M.E"))
 p=t.p
 p=A.b([A.a5(A.b([A.ao(A.a_(A.b([A.l("Community",q,q,q,A.x(q,q,$.f.r,q,q,q,q,q,q,q,q,12,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),A.l("Gomti Greens",q,q,q,A.x(q,q,$.f.f,q,q,q,q,q,q,q,q,20,q,q,B.Q,q,1.25,!0,q,q,q,q,q,q,q,q),q,q,q)],p),B.o,B.e,B.f,0,B.k),1),A.ei(q,q,q,B.vq,q,q,new A.aJU(a),q,q,q,q,q)],p),B.j,B.e,B.f,0,q),B.ad,A.bd(A.GG(new A.aJV(this),5,B.aB,new A.aJW()),40,q),B.ap],p)
 if(o.length===0)p.push(new A.a3(new A.Y(30,30,30,30),A.l("No posts here yet.",q,q,q,A.x(q,q,$.f.r,q,q,q,q,q,q,q,q,13,q,q,q,q,1.4,!0,q,q,q,q,q,q,q,q),B.aj,q,q),q))
@@ -112035,7 +112035,7 @@ A.aR8.prototype={
 $1(a){return A.fk(this.a,a)},
 $S:9}
 A.aR7.prototype={
-$1(a){return B.YH},
+$1(a){return B.YG},
 $S:232}
 A.vv.prototype={
 S(){return new A.NG()}}
@@ -112249,7 +112249,7 @@ A.aSK.prototype={
 $0(){return this.a.w=this.b},
 $S:0}
 A.aSL.prototype={
-$0(){return this.a.w=B.XZ},
+$0(){return this.a.w=B.XY},
 $S:0}
 A.aSI.prototype={
 $1(a){var s=this.a
@@ -112428,7 +112428,7 @@ e.push(B.b9)
 e.push(A.d2("Title",B.q7,k.gPc(),j,"e.g. Lipid profile, Knee X-ray",j,80,1,j,new A.aSY()))
 e.push(B.ajW)
 i=A.b([],f)
-for(p=0;p<7;++p){l=B.Yw[p]
+for(p=0;p<7;++p){l=B.Yv[p]
 i.push(new A.cR(l,k.x===l,new A.aSZ(k,l),!1,j,j))}e.push(A.ez(i,B.aX,8,8))
 e.push(k.Q&&k.x==null?B.ajv:B.ay)
 e.push(B.b9)
@@ -112691,7 +112691,7 @@ p=5
 s=m==="file"?8:10
 break
 case 8:s=11
-return A.h(A.b8R(B.YE,B.uC),$async$mg)
+return A.h(A.b8R(B.YD,B.uC),$async$mg)
 case 11:l=a0
 s=l!=null?12:13
 break
@@ -112932,7 +112932,7 @@ B(a){var s=null
 return A.ao(A.a_(A.b([A.l(this.c,s,s,s,A.x(s,s,$.f.f,s,s,s,s,s,s,s,s,20,s,s,B.Q,s,1.25,!0,s,s,s,s,s,s,s,s),s,s,s),A.l(this.d,s,s,s,A.x(s,s,$.f.r,s,s,s,s,s,s,s,s,12,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.j,B.e,B.f,0,B.k),1)}}
 A.yc.prototype={
 B(a){var s,r,q,p,o,n,m,l,k,j=null,i=A.l9("Consent, in plain words",j,!0),h=t.p,g=A.b([A.l("Consent means saying yes freely, after you understand what you are agreeing to. You can always say no, and you can change your mind later.",j,j,j,A.x(j,j,$.f.f,j,j,j,j,j,j,j,j,14,j,j,j,j,1.45,!0,j,j,j,j,j,j,j,j).a6C(16,1.5),j,j,j),B.a6W],h)
-for(s=0;s<8;++s){r=B.X1[s]
+for(s=0;s<8;++s){r=B.X0[s]
 q=$.f
 p=q.f
 o=A.l(r.b,j,j,j,new A.v(!0,p,j,j,j,j,16,B.r,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j),j,j,j)
@@ -112947,7 +112947,7 @@ g.push(B.ad)
 q=$.f.Q.aq(10)
 p=$.f.Q.aq(64)
 o=A.b([A.l("Implied consent never covers",j,j,j,A.x(j,j,$.f.f,j,j,j,j,j,j,j,j,16,j,j,B.r,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),B.a7],h)
-for(s=0;s<4;++s){n=B.XC[s]
+for(s=0;s<4;++s){n=B.XB[s]
 m=$.f
 l=A.aI(B.uV,m.Q,j,20)
 o.push(new A.a3(B.i7,A.a5(A.b([l,B.aG,new A.cg(1,B.a4,A.l(n,j,j,j,new A.v(!0,m.f,j,j,j,j,14,j,j,j,j,j,1.45,j,j,j,j,j,j,j,j,j,j,j,j,j),j,j,j),j)],h),B.o,B.e,B.f,0,j),j))}g.push(A.aN(p,A.a_(o,B.o,B.e,B.f,0,B.k),q,!1,j,B.B))
@@ -114148,7 +114148,7 @@ c.push(A.d2("Medicine name & strength",B.cu,i.gO1(),h,"e.g. Metformin 500 mg",h,
 c.push(A.d2("Dose (optional)",B.aq,i.gMw(),h,"e.g. 1 tablet, 5 ml, 10 units",h,40,1,h,h))
 c.push(B.ajT)
 s=A.b([],d)
-for(q=0;q<5;++q){l=B.XG[q]
+for(q=0;q<5;++q){l=B.XF[q]
 s.push(new A.cR(l,i.x===l,new A.aNu(i,l),!1,h,h))}c.push(A.ez(s,B.aX,8,8))
 c.push(B.a6T)
 s=A.b([],d)
@@ -114980,7 +114980,7 @@ B(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=null,c=A.aQ(e.gLo().h(0,"name"))
 if(c==null)c="Kamla Verma"
 s=A.aQ(e.gLo().h(0,"memberId"))
 r=s!=null&&J.c(e.gLo().h(0,"medicalId"),!0)
-q=[B.a5k,B.a5g,new A.cs("On the way \xb7 Tower B \u2192 C","ETA ~6 min",e.d>20),B.a5u,B.a5i]
+q=[B.a5k,B.a5g,new A.cs("On the way \xb7 Tower B \u2192 C","ETA ~6 min",e.d>20),B.a5v,B.a5i]
 p=$.f
 o=p.Q
 o=A.ct(A.bi(d,B.TY,B.p,d,d,new A.b4(o,d,d,d,A.b([new A.bX(6,B.ag,o.aq(B.d.ap(127.5)),B.m,40)],t.F),d,B.be),d,110,d,d,d,d,110),d,d)
@@ -115126,7 +115126,7 @@ q=A.bt(16)
 f.push(A.dK(h,A.bi(h,B.a63,B.p,h,h,new A.b4(r,h,A.hc(i.e===-1?$.f.Q:B.i.aq(31),1),q,h,h,B.K),h,h,h,B.cr,h,h,150),B.M,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.aWa(i),h,h,h,h,h,h))
 f=A.ez(f,B.aX,10,10)
 r=A.b([],g)
-for(o=0;o<6;++o){n=B.XD[o]
+for(o=0;o<6;++o){n=B.XC[o]
 q=A.l(n,h,h,h,h,h,h,h)
 m=i.f
 l=$.f
@@ -115357,7 +115357,7 @@ if(!n.y&&r!=null)B.b.K(k,A.b([B.d3,r],l))
 k.push(B.a7)
 j=n.y&&n.x==null
 j=A.b([new A.cR("Just my name",j,new A.aBl(q),!1,m,m)],l)
-for(p=0;p<6;++p){o=B.Ye[p]
+for(p=0;p<6;++p){o=B.Yd[p]
 j.push(new A.cR(o,n.x===o,new A.aBm(q,o),!1,m,m))}j.push(new A.cR("Custom",n.x==="Custom",new A.aBn(n,q),!1,m,m))
 k.push(A.ez(j,B.aX,8,8))
 if(n.x==="Custom")B.b.K(k,A.b([B.ad,n.amJ()],l))
@@ -115493,7 +115493,7 @@ p=A.l("Welcome to "+s+" on PulseGrid.",h,h,h,B.abY,B.aj,h,h)
 o=A.bt(24)
 n=t.p
 m=A.b([A.l("Next: your health profile",h,h,h,A.x(h,h,$.f.f,h,h,h,h,h,h,h,h,16,h,h,B.r,h,h,!0,h,h,h,h,h,h,h,h),h,h,h),A.l("About 4 minutes \xb7 4 steps \xb7 you can skip",h,h,h,A.x(h,h,$.f.r,h,h,h,h,h,h,h,h,12,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h,h),B.T],n)
-for(l=0;l<4;++l){k=B.Xn[l]
+for(l=0;l<4;++l){k=B.Xm[l]
 j=$.f
 i=A.aI(k.a,j.c,h,22)
 m.push(new A.a3(B.u1,A.a5(A.b([i,B.ae,new A.cg(1,B.a4,A.l(k.b,h,h,h,new A.v(!0,j.f,h,h,h,h,14,h,h,h,h,h,1.45,h,h,h,h,h,h,h,h,h,h,h,h,h),h,h,h),h)],n),B.j,B.e,B.f,0,h),h))}m.push(B.ap)
@@ -115817,7 +115817,7 @@ A.ux.prototype={
 S(){return new A.a3F($.D6().a,$.xv().a>1)}}
 A.a3F.prototype={
 B(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=t.p,h=A.b([B.Tv,B.dM,A.l("Choose your language",j,j,j,A.x(j,j,$.f.f,j,j,j,j,j,j,j,j,26,j,j,B.Q,j,1.2,!0,j,j,j,j,j,j,j,j),j,j,j),B.aC,A.l("\u0905\u092a\u0928\u0940 \u092d\u093e\u0937\u093e \u091a\u0941\u0928\u0947\u0902",j,j,j,A.x(j,j,$.f.r,j,j,j,j,j,j,j,j,18,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),B.pY],i)
-for(s=0;s<3;++s){r=B.Ya[s]
+for(s=0;s<3;++s){r=B.Y9[s]
 q=k.d
 p=r.a
 o=$.f
@@ -116039,7 +116039,7 @@ $0(){return this.a.r=null},
 $S:0}
 A.a4y.prototype={
 B(a){var s=null,r=this.c
-return A.h3(B.bN,A.b([A.a5(A.nW(6,new A.aPH(r.a.a),!0,t.l7),B.j,B.e,B.f,0,s),A.HI(0,A.qj(A.r7(s,B.YB,!0,s,!0,B.L,s,A.xu(),r,s,s,s,s,s,2,B.Ut,B.M,!0,s,!0,s,!1,s,B.cj,s,s,A.b([$.R6()],t.VS),s,B.dn,s,6,s,1,s,s,!1,"\u2022",s,new A.aPI(this),s,s,s,!1,s,s,!1,s,!0,s,B.cC,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.at,s,B.aq,s,s,s,s),0))],t.p),B.L,B.bs,s)}}
+return A.h3(B.bN,A.b([A.a5(A.nW(6,new A.aPH(r.a.a),!0,t.l7),B.j,B.e,B.f,0,s),A.HI(0,A.qj(A.r7(s,B.YA,!0,s,!0,B.L,s,A.xu(),r,s,s,s,s,s,2,B.Ut,B.M,!0,s,!0,s,!1,s,B.cj,s,s,A.b([$.R6()],t.VS),s,B.dn,s,6,s,1,s,s,!1,"\u2022",s,new A.aPI(this),s,s,s,!1,s,s,!1,s,!0,s,B.cC,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.at,s,B.aq,s,s,s,s),0))],t.p),B.L,B.bs,s)}}
 A.aPH.prototype={
 $1(a){var s,r,q,p=null,o=this.a,n=o.length,m=a<n,l=a===n
 n=a<5?8:0
@@ -116157,7 +116157,7 @@ q=A.a5(A.b([A.ao(q.length===0?A.d2(c,B.aq,e.e,d,d,d,30,1,d,new A.aS8()):A.qq(c,"
 p=A.b([],r)
 for(o=["Owner","Tenant","Family of owner"],n=0;n<3;++n){m=o[n]
 p.push(new A.cR(m,e.x===m,new A.aSa(e,m),!1,d,d))}p=A.ez(p,B.aX,8,8)
-o=A.qq("Proof document",d,new A.aSb(e),B.YQ,!1,e.y)
+o=A.qq("Proof document",d,new A.aSb(e),B.YP,!1,e.y)
 l=e.z!=null?$.f.e.aq(20):B.i
 k=A.bt(18)
 if(e.at)j=$.f.Q
@@ -116248,7 +116248,7 @@ for(s=t.W,r=0;r<5;r=p){q=$.f
 q=A.b([q.b,q.c,q.e],s)
 p=r+1
 q=A.bi(B.X,A.l(""+p,m,m,m,B.Hn,m,m,m),B.p,m,m,new A.b4(m,m,m,m,m,new A.dL(B.bd,B.bZ,B.aH,q,B.cF,m),B.be),m,26,m,m,m,m,26)
-o=B.Yg[r]
+o=B.Yf[r]
 n=$.f
 k.push(new A.a3(B.k3,A.a5(A.b([q,B.ae,new A.cg(1,B.a4,A.l(o,m,m,m,new A.v(!0,n.f,m,m,m,m,14,m,m,m,m,m,1.45,m,m,m,m,m,m,m,m,m,m,m,m,m),m,m,m),m)],l),B.o,B.e,B.f,0,m),m))}k.push(B.b9)
 k.push(new A.cD("Browse design catalog (demo screens)",new A.awY(a),B.v2,m,m))
@@ -116455,7 +116455,7 @@ A.aZi.prototype={
 $0(){return this.a.e=this.b},
 $S:0}
 A.aZj.prototype={
-$2(a,b){var s,r,q=null,p=B.Xx[b],o=$.f
+$2(a,b){var s,r,q=null,p=B.Xw[b],o=$.f
 o=A.b([o.b,o.c,o.e],t.W)
 s=this.a
 r=t.p
@@ -117620,7 +117620,7 @@ s=B.b.gP(a.b.split(" "))
 r=A.hY(a.w)<18?"a guardian consents":"they agree"
 return A.aN(o,A.a_(A.b([n,B.a5,A.l("We can't store "+s+"'s health details until "+r+". This protects them under the DPDP Act.",q,q,q,A.x(q,q,$.f.r,q,q,q,q,q,q,q,q,13,q,q,q,q,1.4,!0,q,q,q,q,q,q,q,q),q,q,q),B.T,new A.cD("Record consent",new A.aOt(this,a),q,q,q)],m),B.o,B.e,B.f,0,B.k),p,!1,q,B.B)},
 aoP(a,b){var s,r,q,p,o,n,m,l=this,k=null,j="Optional",i=A.x(k,k,$.f.r,k,k,k,k,k,k,k,k,13,k,k,k,k,1.4,!0,k,k,k,k,k,k,k,k),h=t.p
-i=A.b([A.AO(A.cE(A.b([B.aaN,A.cE(k,k,k,k,k,k,k,k,k,A.x(k,k,$.f.f,k,k,k,k,k,k,k,k,k,k,k,B.r,k,k,!0,k,k,k,k,k,k,k,k),a.b),B.aaO],t.VO),k,k,k,k,k,k,k,k,i,k),k,k),B.a6w,l.LQ(B.YA,b.b),B.ad,A.d2("Other conditions",B.aq,l.Q,k,j,k,300,1,new A.aOh(l),k),B.a6t,l.LQ(B.Xb,b.c),B.ad,A.d2("Other allergies",B.aq,l.as,k,j,k,300,1,new A.aOi(l),k),new A.bc("Current medicines",A.ZC(B.vo,B.lK,l.gajz()),k)],h)
+i=A.b([A.AO(A.cE(A.b([B.aaN,A.cE(k,k,k,k,k,k,k,k,k,A.x(k,k,$.f.f,k,k,k,k,k,k,k,k,k,k,k,B.r,k,k,!0,k,k,k,k,k,k,k,k),a.b),B.aaO],t.VO),k,k,k,k,k,k,k,k,i,k),k,k),B.a6w,l.LQ(B.Yz,b.b),B.ad,A.d2("Other conditions",B.aq,l.Q,k,j,k,300,1,new A.aOh(l),k),B.a6t,l.LQ(B.Xa,b.c),B.ad,A.d2("Other allergies",B.aq,l.as,k,j,k,300,1,new A.aOi(l),k),new A.bc("Current medicines",A.ZC(B.vo,B.lK,l.gajz()),k)],h)
 if(J.fR(l.r))i.push(new A.a3(new A.Y(0,0,0,8),A.l("No medicines added.",k,k,k,A.x(k,k,$.f.r,k,k,k,k,k,k,k,k,12,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),k))
 for(s=J.br(l.r);s.A();){r=s.gO()
 q=r.c
@@ -117633,7 +117633,7 @@ q.push(A.l(p,k,k,k,new A.v(!0,o.r,k,k,k,k,12,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k
 i.push(l.LQ(B.WP,b.d))
 i.push(B.a6G)
 s=A.b([],h)
-for(n=0;n<4;++n){m=B.Y9[n]
+for(n=0;n<4;++n){m=B.Y8[n]
 s.push(new A.cR(m,b.r===m,new A.aOk(l,b,m),!1,k,k))}i.push(A.ez(s,B.aX,8,8))
 i.push(B.a5)
 i.push(A.l("Tells the medic whether to bring a stretcher or carry chair.",k,k,k,A.x(k,k,$.f.r,k,k,k,k,k,k,k,k,12,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k,k))
@@ -118123,7 +118123,7 @@ p=$.f.e.aq(89)
 o=$.f
 j.push(A.aN(p,A.a5(A.b([new A.cX(B.oE,o.e,44,m),B.ae,A.ao(A.a_(A.b([A.l("A trusted companion, not a nurse",m,m,m,A.x(m,m,o.f,m,m,m,m,m,m,m,m,16,m,m,B.r,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.d3,A.l("Buddies are trained and police-verified. They go with you and help \u2014 they never give medicines or treatment. If someone feels unwell, the buddy calls the PulseGrid medic.",m,m,m,A.x(m,m,$.f.r,m,m,m,m,m,m,m,m,12,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m)],k),B.o,B.e,B.f,0,B.k),1)],k),B.o,B.e,B.f,0,m),q,!1,m,B.B))
 j.push(B.ad)
-for(s=0;s<7;++s){r=B.WV[s]
+for(s=0;s<7;++s){r=B.WU[s]
 j.push(n.a3C(r,$.f.e,new A.aEk(n,r)))}j.push(A.b3N(n.e,"buddy","Your buddy bookings"))
 j.push(B.a7)
 j.push(A.dn("Prices are indicative. Our team confirms the exact price when they call \u2014 nothing is charged in the app yet.",$.f.c,B.cV,m))
@@ -118140,7 +118140,7 @@ A.tp.prototype={
 S(){return new A.a0L()}}
 A.a0L.prototype={
 B(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=t.p,g=A.aN(i,A.a5(A.b([B.Ts,B.ae,A.ao(A.a_(A.b([A.l("Home \xb7 C-704",i,i,i,A.x(i,i,$.f.f,i,i,i,i,i,i,i,i,16,i,i,B.r,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),A.l("Gomti Greens Residency, Gomti Nagar Ext., Lucknow 226010",i,i,i,A.x(i,i,$.f.r,i,i,i,i,i,i,i,i,12,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i,i)],h),B.o,B.e,B.f,0,B.k),1),A.bL(B.qk,new A.aEy(a),i)],h),B.j,B.e,B.f,0,i),i,!1,i,B.B),f=A.b([],h)
-for(s=0;s<2;++s){r=B.Z_[s]
+for(s=0;s<2;++s){r=B.YZ[s]
 q=$.f.f
 p=A.l(r.a,i,i,i,new A.v(!0,q,i,i,i,i,14,i,i,i,i,i,1.45,i,i,i,i,i,i,i,i,i,i,i,i,i),i,i,i)
 f.push(new A.a3(B.Q8,A.a5(A.b([new A.cg(1,B.a4,p,i),A.l("\u20b9"+r.b,i,i,i,new A.v(!0,q,i,i,i,i,14,i,i,i,i,i,1.45,i,i,i,i,i,i,i,i,i,i,i,i,i),i,i,i)],h),B.j,B.e,B.f,0,i),i))}f.push(B.nk)
@@ -118211,7 +118211,7 @@ s.push(new A.cg(1,B.a4,A.dK(g,A.bi(g,A.a_(A.b([j,A.l(b,g,g,g,new A.v(!0,l.r,g,g,
 if(h.e==="Unwell")B.b.K(f,A.b([B.ad,A.dn("Your buddy Sunita will visit within the hour. Need help sooner? Press SOS.",$.f.as,B.uX,g)],r))
 f.push(B.a6P)
 e=A.b([],r)
-for(i=0;i<7;++i){d=B.Yh[i]
+for(i=0;i<7;++i){d=B.Yg[i]
 c=d==null
 if(c)b=h.d?B.cU:B.RZ
 else b=d?B.cU:B.SA
@@ -118219,7 +118219,7 @@ if(c){d=h.d
 c=$.f
 d=d?c.e:c.w}else{c=$.f
 d=d?c.e:c.as}d=A.aI(b,d,g,g)
-b=B.YM[i]
+b=B.YL[i]
 e.push(new A.cg(1,B.a4,A.a_(A.b([d,B.aC,A.l(b,g,g,g,new A.v(!0,c.r,g,g,g,g,12,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g),g,g,g)],r),B.j,B.e,B.f,0,B.k),g))}f.push(A.a5(e,B.j,B.e,B.f,0,g))
 f.push(B.aC)
 f.push(A.l("Monday missed \u2014 buddy visited at 10:15 AM, all fine.",g,g,g,A.x(g,g,$.f.r,g,g,g,g,g,g,g,g,12,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g))
@@ -118227,7 +118227,7 @@ f.push(B.a74)
 e=$.f
 f.push(A.aN(g,A.a5(A.b([new A.hH("SD",46,!1,e.e,g),B.ae,A.ao(A.a_(A.b([A.l("Sunita Devi",g,g,g,A.x(g,g,e.f,g,g,g,g,g,g,g,g,16,g,g,B.r,g,g,!0,g,g,g,g,g,g,g,g),g,g,g),A.l("Tower C \xb7 visits Tue & Fri \xb7 first-aid trained",g,g,g,A.x(g,g,$.f.r,g,g,g,g,g,g,g,g,12,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g)],r),B.o,B.e,B.f,0,B.k),1),A.ei(g,g,g,A.aI(B.e3,$.f.c,g,g),g,g,new A.aIn(a),g,g,g,g,g)],r),B.j,B.e,B.f,0,g),g,!1,g,B.B))
 f.push(B.a6i)
-f.push(A.aN(g,A.a_(B.Yy,B.j,B.e,B.f,0,B.k),g,!1,g,B.B))
+f.push(A.aN(g,A.a_(B.Yx,B.j,B.e,B.f,0,B.k),g,!1,g,B.B))
 return A.bZ(B.a2p,g,new A.co(f,B.al,g,g),g,g)}}
 A.aIl.prototype={
 $0(){var s=this.a
@@ -118253,7 +118253,7 @@ A.ug.prototype={
 S(){return new A.a31()}}
 A.a31.prototype={
 B(a){var s,r=null,q=t.p,p=A.a_(A.b([A.bi(r,B.U0,B.p,r,r,new A.b4(B.i.aq(46),r,r,A.bt(18),r,r,B.K),r,60,r,r,r,r,60),B.ap,B.ags,B.a5,B.ag5],q),B.j,B.e,B.f,0,B.k),o=A.b([],q)
-for(s=0;s<2;++s)o.push(new A.a3(B.k3,new A.a4M(B.Xj[s],this.d===s,new A.aKN(this,s),r),r))
+for(s=0;s<2;++s)o.push(new A.a3(B.k3,new A.a4M(B.Xi[s],this.d===s,new A.aKN(this,s),r),r))
 o.push(A.dn("A doctor visits first to check if home care is safe for the patient. If not, we help you arrange hospital admission instead.",$.f.c,B.uR,r))
 o.push(B.ad)
 o.push(A.dn("Monthly plan \xb7 cancel anytime with 7 days' notice. Equipment deposit refundable.",$.f.r,B.oq,r))
@@ -118352,13 +118352,13 @@ o=g.e===s
 n=o?f:B.i
 m=new A.aT(14,14)
 l=new A.aH(o?B.E:$.f.w,1,B.t,-1)
-k=B.Yj[s]
+k=B.Yi[s]
 j=o?B.a8:$.f.r
 j=A.l(k.a,f,f,f,new A.v(!0,j,f,f,f,f,12,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f),f,f,f)
 o=o?B.i:$.f.f
 r.push(new A.cg(1,B.a4,A.dK(f,A.bi(f,A.a_(A.b([j,A.l(k.b,f,f,f,new A.v(!0,o,f,f,f,f,18,B.Q,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f),f,f,f)],c),B.j,B.e,B.f,0,B.k),B.p,f,f,new A.b4(n,f,new A.dl(l,l,l,l),new A.cf(m,m,m,m),f,p,B.K),f,f,B.k4,B.nv,f,f,f),B.M,!1,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,new A.aM1(g,s),f,f,f,f,f,f),f))}r=A.a5(r,B.j,B.e,B.f,0,f)
 q=A.b([],c)
-for(i=0;i<5;++i){h=B.YY[i]
+for(i=0;i<5;++i){h=B.YX[i]
 q.push(new A.cR(h,g.f===h,new A.aM2(g,h),!0,f,f))}q=A.ez(q,B.aX,8,8)
 p=$.f
 return A.bZ(B.a2C,f,new A.co(A.b([e,d,B.a7b,b,B.a6y,r,B.a6I,q,B.b8,A.dn("Fasting required: no food for 10\u201312 hours before collection. Water is fine. Take BP medicines as usual; hold diabetes medicines until after the sample unless your doctor says otherwise.",p.as,B.Sd,f),B.a77,A.aN(f,A.a5(A.b([A.aI(B.on,p.c,f,f),B.aG,A.ao(A.l("C-704, Gomti Greens Residency, Gomti Nagar Ext.",f,f,f,A.x(f,f,p.f,f,f,f,f,f,f,f,f,14,f,f,f,f,1.45,!0,f,f,f,f,f,f,f,f),f,f,f),1),A.bL(B.qk,new A.aM3(a),f)],c),B.j,B.e,B.f,0,f),f,!1,f,B.B),B.T,A.dn("Report goes straight to the Health Vault and to your doctor if you choose.",$.f.e,B.fS,f)],c),B.al,f,f),new A.ef(A.b([A.cW("Continue to pay \xb7 \u20b91,499",!1,54,f,!1,new A.aM4(a))],c),f),f)}}
@@ -118537,13 +118537,13 @@ case 2:if(d){p=q.d.gR()
 if(p!=null)p.qi()}return A.p(null,r)}})
 return A.q($async$vb,r)},
 B(a){var s,r,q,p,o,n=null,m=A.l9("Plans & membership",n,!0),l=t.p,k=A.a_(A.b([B.afO,B.a5,B.agA,B.a7,A.l("SOS always works \u2014 even without a family plan.",n,n,n,A.x(n,n,B.i.aq(B.d.ap(229.5)),n,n,n,n,n,n,n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n,n)],l),B.o,B.e,B.f,0,B.k),j=A.b3N(this.d,"plan","Your plan requests"),i=A.b([],l)
-for(s=0;s<4;++s){r=B.XQ[s]
+for(s=0;s<4;++s){r=B.XP[s]
 q=$.f
 p=A.aI(B.kq,q.c,n,18)
 i.push(new A.a3(B.nw,A.a5(A.b([p,B.b7,new A.cg(1,B.a4,A.l(r,n,n,n,new A.v(!0,q.f,n,n,n,n,14,n,n,n,n,n,1.45,n,n,n,n,n,n,n,n,n,n,n,n,n),n,n,n),n)],l),B.o,B.e,B.f,0,n),n))}k=A.b([new A.nI(k,B.cC,24,n),j,new A.bc("Documents every family plan needs",n,n),A.aN(n,A.a_(i,B.o,B.e,B.f,0,B.k),n,!1,n,B.B),new A.bc("Plans",n,n)],l)
 for(s=0;s<4;++s)k.push(this.ayL(B.Wo[s]))
 k.push(new A.bc("Add-ons",n,n))
-for(s=0;s<4;++s){o=B.Xt[s]
+for(s=0;s<4;++s){o=B.Xs[s]
 j=$.f
 i=A.l(o.a,n,n,n,new A.v(!0,j.f,n,n,n,n,16,B.r,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n),n,n,n)
 i=A.a_(A.b([i,A.l(o.c,n,n,n,new A.v(!0,j.r,n,n,n,n,12,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n),n,n,n)],l),B.o,B.e,B.f,0,B.k)
@@ -118697,7 +118697,7 @@ Yp(a,b,c){var s=null,r=c==null?B.i.aq(36):c
 return A.dF(!1,B.y,!0,s,A.fq(!1,s,!0,A.bd(A.aI(a,B.i,s,s),60,60),B.dY,!0,s,s,s,s,s,s,s,s,s,s,s,b,s,s,s,s,s,s,s),B.p,r,0,s,s,B.dY,s,s,B.b6)},
 Mi(a,b){return this.Yp(a,b,null)},
 ayU(){var s,r,q,p,o,n,m=null,l=t.p,k=A.b([A.a5(A.b([new A.hH("SM",44,!0,m,m),A.bd(m,m,12),A.ao(A.a_(A.b([A.l("Dr. S. Mishra, MBBS, MD",m,m,m,A.x(m,m,$.f.f,m,m,m,m,m,m,m,m,16,m,m,B.r,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),A.l("UPMC Reg. No. 00000 \xb7 2 Oct 2026",m,m,m,A.x(m,m,$.f.r,m,m,m,m,m,m,m,m,12,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m)],l),B.o,B.e,B.f,0,B.k),1)],l),B.j,B.e,B.f,0,m),B.Ph,A.l("Patient: Kamla Verma \xb7 68 F",m,m,m,A.x(m,m,$.f.f,m,m,m,m,m,m,m,m,14,m,m,m,m,1.45,!0,m,m,m,m,m,m,m,m),m,m,m),B.a5,A.l("Diagnosis: Hypertension, uncontrolled \xb7 T2DM",m,m,m,A.x(m,m,$.f.f,m,m,m,m,m,m,m,m,14,m,m,m,m,1.45,!0,m,m,m,m,m,m,m,m),m,m,m),B.ap],l)
-for(s=0;s<3;++s){r=B.YO[s]
+for(s=0;s<3;++s){r=B.YN[s]
 q=$.f
 p=A.l("\u211e ",m,m,m,new A.v(!0,q.c,m,m,m,m,m,B.Q,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m),m,m,m)
 q=A.l(r.a,m,m,m,new A.v(!0,q.f,m,m,m,m,14,m,m,m,m,m,1.45,m,m,m,m,m,m,m,m,m,m,m,m,m).jQ(B.r),m,m,m)
@@ -119152,7 +119152,7 @@ A.api.prototype={
 $0(){return this.a.d=this.b},
 $S:0}
 A.apj.prototype={
-$0(){return this.a.d=B.Y1},
+$0(){return this.a.d=B.Y0},
 $S:0}
 A.apg.prototype={
 $0(){return this.a.y0(this.b)},
@@ -119179,7 +119179,7 @@ for(s=1;s<=5;++s){r=s===1?"":"s"
 q=s<=p.d?B.ig:B.vc
 l.push(A.ei(o,o,o,A.aI(q,$.f.as,o,o),38,o,new A.aSj(p,s),o,o,o,""+s+" star"+r,o))}l=A.a5(l,B.j,B.dl,B.f,0,o)
 r=p.d
-r=r===0?"Tap the stars":B.X_[r]
+r=r===0?"Tap the stars":B.WZ[r]
 r=A.vY(A.a_(A.b([n,B.T,l,A.ct(A.l(r,o,o,o,A.x(o,o,$.f.f,o,o,o,o,o,o,o,o,14,o,o,o,o,1.45,!0,o,o,o,o,o,o,o,o),o,o,o),o,o),B.T,A.r7(o,B.cs,!1,o,!0,B.L,o,A.xu(),p.e,o,o,o,o,o,2,B.Uv,B.M,!0,o,!0,o,!1,o,B.cj,o,o,o,o,o,o,500,o,3,2,o,!1,"\u2022",o,o,o,o,o,!1,o,o,!1,o,!0,o,B.cC,o,o,o,o,o,o,o,o,o,o,o,o,!0,B.at,o,B.aq,o,o,o,o)],m),B.o,B.e,B.ac,0,B.k),o,o,B.a0)
 l=A.bL(B.Hw,new A.aSk(a),o)
 return A.it(A.b([l,A.b8S(B.agy,p.d===0?o:new A.aSl(p,a))],m),r,o,B.agN)}}
@@ -126471,7 +126471,7 @@ B.LG=new A.aA5()
 B.aa=new A.a_6()
 B.bl=new A.a_7()
 B.hq=new A.a_h(0,0,0,0)
-B.Y3=s([],A.ax("C<af1>"))
+B.Y2=s([],A.ax("C<af1>"))
 B.al7=new A.aAn()
 B.LH=new A.a_m()
 B.ch={}
@@ -126532,8 +126532,8 @@ B.agr=new A.aL("Dr. S. Mishra",null,B.ae8,null,null,null,null,null,null,null)
 B.jI=new A.L(0.6,1,1,1,B.l)
 B.Hr=new A.v(!0,B.jI,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.afM=new A.aL("General Physician \xb7 06:42",null,B.Hr,null,null,null,null,null,null,null)
-B.XL=s([B.Jg,B.ap,B.agr,B.afM],t.p)
-B.Od=new A.jO(B.a0,B.e,B.ac,B.j,null,B.k,null,0,B.XL,null)
+B.XK=s([B.Jg,B.ap,B.agr,B.afM],t.p)
+B.Od=new A.jO(B.a0,B.e,B.ac,B.j,null,B.k,null,0,B.XK,null)
 B.MQ=new A.jN(B.X,null,null,B.Od,null)
 B.dx=new A.acW(1,"onScrollUpdate")
 B.jp=new A.hI(0,"close")
@@ -126671,8 +126671,8 @@ B.adh=new A.v(!0,B.i,null,null,null,null,16,B.Q,null,3,null,null,null,null,null,
 B.ag3=new A.aL("PULSEGRID",null,B.adh,null,null,null,null,null,null,null)
 B.j4=new A.v(!0,B.a8,null,null,null,null,12.5,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.agX=new A.aL("User app \xb7 screen catalog",null,B.j4,null,null,null,null,null,null,null)
-B.YU=s([B.ag3,B.agX],t.p)
-B.Of=new A.jO(B.a0,B.e,B.f,B.o,null,B.k,null,0,B.YU,null)
+B.YT=s([B.ag3,B.agX],t.p)
+B.Of=new A.jO(B.a0,B.e,B.f,B.o,null,B.k,null,0,B.YT,null)
 B.Oh=new A.tt(null)
 B.tD=new A.Es(0,"none")
 B.Oi=new A.Es(1,"waiting")
@@ -127087,8 +127087,8 @@ B.qj=new A.v(!0,B.i,null,null,null,null,null,B.r,null,null,null,null,null,null,n
 B.agi=new A.aL("Tower C \xb7 Flat 704 \xb7 7th floor",null,B.qj,null,null,null,null,null,null,null)
 B.Hl=new A.v(!0,B.jI,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.agO=new A.aL("Gate 2 \xb7 lift B \xb7 Gomti Greens",null,B.Hl,null,null,null,null,null,null,null)
-B.YL=s([B.agi,B.agO],t.p)
-B.Oe=new A.jO(B.a0,B.e,B.f,B.o,null,B.k,null,0,B.YL,null)
+B.YK=s([B.agi,B.agO],t.p)
+B.Oe=new A.jO(B.a0,B.e,B.f,B.o,null,B.k,null,0,B.YK,null)
 B.R3=new A.cg(1,B.a4,B.Oe,null)
 B.ajm=new A.a1U(null)
 B.uk=new A.cg(1,B.a4,B.ajm,null)
@@ -127530,10 +127530,10 @@ B.vI=new A.uC(3,"center")
 B.Vh=new A.uC(4,"bottom")
 B.vJ=s(["All","General Physician","Diabetologist","Cardiologist","Paediatrician"],t.s)
 B.vK=s([13,10],t.t)
-B.XH=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
-B.Xd=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
+B.XG=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
+B.Xc=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
 B.Z4=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
-B.Vk=s([B.XH,B.Xd,B.Z4],t.zg)
+B.Vk=s([B.XG,B.Xc,B.Z4],t.zg)
 B.oK=s([0,0.6,1],t.n)
 B.vL=s(["text","multiline","number","phone","datetime","emailAddress","url","visiblePassword","name","address","none","webSearch","twitter"],t.s)
 B.Vm=s([239,191,189],t.t)
@@ -127569,14 +127569,14 @@ B.Pi=new A.lT("Dr. Farah Naqvi","Diabetologist","Hindi \xb7 Urdu \xb7 English",5
 B.Pl=new A.lT("Dr. Alok Tiwari","Cardiologist","Hindi \xb7 English",799,"Sat 11 AM",4.7)
 B.Pj=new A.lT("Dr. Priya Saxena","Paediatrician","Hindi \xb7 English",499,"Today 8 PM",4.8)
 B.kB=s([B.Pk,B.Pi,B.Pl,B.Pj],A.ax("C<lT>"))
-B.Yz=s([137,80,78,71,13,10,26,10],t.Z)
+B.Yy=s([137,80,78,71,13,10,26,10],t.Z)
 B.U7=new A.pX(0,"png")
 B.Uf=new A.m4(B.U7,!1,0,"png")
-B.U5=new A.nM(B.Yz,B.Uf,0,"png")
-B.YD=s([71,73,70,56,55,97],t.Z)
-B.U4=new A.nM(B.YD,B.kv,1,"gif87a")
-B.XB=s([71,73,70,56,57,97],t.Z)
-B.U3=new A.nM(B.XB,B.kv,2,"gif89a")
+B.U5=new A.nM(B.Yy,B.Uf,0,"png")
+B.YC=s([71,73,70,56,55,97],t.Z)
+B.U4=new A.nM(B.YC,B.kv,1,"gif87a")
+B.XA=s([71,73,70,56,57,97],t.Z)
+B.U3=new A.nM(B.XA,B.kv,2,"gif89a")
 B.Vn=s([255,216,255],t.Z)
 B.U8=new A.pX(2,"jpeg")
 B.Uj=new A.m4(B.U8,!1,3,"jpeg")
@@ -127601,10 +127601,10 @@ B.a5S=new A.eb([B.Su,"Palliative & hospice care","Pain relief, comfort, family s
 B.a5I=new A.eb([B.fW,"Home ECG & X-ray","Portable diagnostics at your flat","from \u20b9350"])
 B.a5P=new A.eb([B.vg,"Vaccination at home","Flu, pneumonia, child schedule","from \u20b9199 + vaccine"])
 B.W6=s([B.a5T,B.a5O,B.a5R,B.a5S,B.a5I,B.a5P],t.wx)
-B.Xg=s([0.41233895,0.35762064,0.18051042],t.n)
+B.Xf=s([0.41233895,0.35762064,0.18051042],t.n)
 B.WF=s([0.2126,0.7152,0.0722],t.n)
-B.YT=s([0.01932141,0.11916382,0.95034478],t.n)
-B.W7=s([B.Xg,B.WF,B.YT],t.zg)
+B.YS=s([0.01932141,0.11916382,0.95034478],t.n)
+B.W7=s([B.Xf,B.WF,B.YS],t.zg)
 B.vO=s([0,4,12,1,5,13,3,7,15],t.t)
 B.Wb=s([65533],t.t)
 B.We=s([1,2,3,4,5,6,7],t.t)
@@ -127614,12 +127614,12 @@ B.a4n=new A.a1("Society selected",!0)
 B.a4S=new A.a1("Proof submitted",!0)
 B.a4F=new A.a1("Admin review",!1)
 B.Wh=s([B.a5_,B.a4n,B.a4S,B.a4F],A.ax("C<+(j,F)>"))
-B.X2=s(["SOS medic response 24\xd77 inside the society","Medic station with emergency kit, oxygen and AED","Ambulance coordination to the nearest suitable hospital","Monthly health camp (BP, sugar, BMI)","Health vault, medications and family profiles in the app"],t.s)
+B.X1=s(["SOS medic response 24\xd77 inside the society","Medic station with emergency kit, oxygen and AED","Ambulance coordination to the nearest suitable hospital","Monthly health camp (BP, sugar, BMI)","Health vault, medications and family profiles in the app"],t.s)
 B.Vl=s(["RWA registration certificate","Managing committee resolution approving PulseGrid","Signed service agreement (MoU) with PulseGrid","List of flats / blocks for resident verification","Letter allotting space for the medic station","RWA PAN (and GSTIN, if registered) for invoices"],t.s)
-B.a3n=new A.vd("society","Society Shield","\u20b960 / flat / month","Paid by your RWA for every flat",B.os,B.X2,B.Vl,!1,!0)
-B.Xs=s(["Everything in Society Shield","1 doctor video consult a month","5% off medicines and lab tests","Medicine alarms and refill reminders for everyone"],t.s)
+B.a3n=new A.vd("society","Society Shield","\u20b960 / flat / month","Paid by your RWA for every flat",B.os,B.X1,B.Vl,!1,!0)
+B.Xr=s(["Everything in Society Shield","1 doctor video consult a month","5% off medicines and lab tests","Medicine alarms and refill reminders for everyone"],t.s)
 B.vR=s(["Common documents above"],t.s)
-B.a3l=new A.vd("basic","Family Basic","\u20b9199 / month","Up to 4 family members",B.kt,B.Xs,B.vR,!1,!1)
+B.a3l=new A.vd("basic","Family Basic","\u20b9199 / month","Up to 4 family members",B.kt,B.Xr,B.vR,!1,!1)
 B.SK=new A.a0(63288,"MaterialIcons",!1)
 B.Z5=s(["Everything in Family Basic","3 doctor consults a month","10% off medicines and lab tests","1 free home sample collection a month","Yearly full-body check-up for 1 adult","2 Care Buddy hours a month"],t.s)
 B.a3m=new A.vd("plus","Family Plus","\u20b9499 / month","Up to 6 family members",B.SK,B.Z5,B.vR,!0,!1)
@@ -127653,18 +127653,18 @@ B.cw=new A.ln(1,"input")
 B.fc=new A.ln(2,"dialOnly")
 B.dr=new A.ln(3,"inputOnly")
 B.Wu=s([B.bK,B.cw,B.fc,B.dr],A.ax("C<ln>"))
-B.WY=s([2,1.13276676],t.n)
+B.WX=s([2,1.13276676],t.n)
 B.Vv=s([2.18349805,1.20311921],t.n)
-B.Yi=s([2.33888662,1.28698796],t.n)
-B.Ym=s([2.48660575,1.36351941],t.n)
+B.Yh=s([2.33888662,1.28698796],t.n)
+B.Yl=s([2.48660575,1.36351941],t.n)
 B.WA=s([2.62226596,1.44717976],t.n)
 B.WJ=s([2.7514899,1.53385819],t.n)
-B.Xy=s([3.36298265,1.98288283],t.n)
-B.X3=s([4.08649929,2.23811846],t.n)
-B.Xk=s([4.85481134,2.47563463],t.n)
+B.Xx=s([3.36298265,1.98288283],t.n)
+B.X2=s([4.08649929,2.23811846],t.n)
+B.Xj=s([4.85481134,2.47563463],t.n)
 B.WE=s([5.62945551,2.72948597],t.n)
-B.WZ=s([6.43023796,2.98020421],t.n)
-B.vP=s([B.WY,B.Vv,B.Yi,B.Ym,B.WA,B.WJ,B.Xy,B.X3,B.Xk,B.WE,B.WZ],t.zg)
+B.WY=s([6.43023796,2.98020421],t.n)
+B.vP=s([B.WX,B.Vv,B.Yh,B.Yl,B.WA,B.WJ,B.Xx,B.X2,B.Xj,B.WE,B.WY],t.zg)
 B.Ww=s(["Full treatment","No CPR / DNR","Comfort care only","Not decided"],t.s)
 B.Wy=s(["Arial"],t.s)
 B.Wz=s([B.mu,B.mv],A.ax("C<DF>"))
@@ -127718,16 +127718,6 @@ B.a0A=new A.zk("Telmisartan 40 mg","1 strip \xb7 10 tabs","Hypertension",128,!0)
 B.a0z=new A.zk("Metformin + Glimepiride","2 strips","Diabetes",245,!0)
 B.a0y=new A.zk("Paracetamol 650 mg","1 strip","Fever",32,!1)
 B.vU=s([B.a0A,B.a0z,B.a0y],A.ax("C<zk>"))
-B.a5o=new A.cs("family","How do I add my parents or children?","Go to Me \u2192 Family & consent \u2192 Add family member. Adults then give their consent (in person, or you declare you are their caregiver); for children under 18 you give guardian consent. Until then their health details stay locked.")
-B.a5x=new A.cs("lock","Why is there a \ud83d\udd12 next to a family member?","Their consent hasn't been recorded yet. India's data protection law (DPDP Act) means we can't store their health details until they \u2014 or a guardian for children \u2014 agree. Tap their name to record consent.")
-B.a5t=new A.cs("medicines","How do medicine reminders work?","Add a medicine with its times in Home \u2192 Medications and tick each dose. On the phone app, the phone rings at dose time even when the app is closed. Open the app at least once a week so the alarms stay set.")
-B.a5j=new A.cs("share","How do I send a report to my doctor?",'Open the Health vault, tap the record, then "Share securely". Choose 1 hour, 24 hours or 7 days and send the link on WhatsApp. The link stops working after that time.')
-B.a5E=new A.cs("privacy","Where is my information stored, and who can see it?","It is kept on secure servers in India (Mumbai) and is never sold.\n\n\u2022 Your name and flat number: seen only by the residents and the office (RWA) of your own society.\n\u2022 Everything else (date of birth, phone, health details): hidden from everyone, including the society office, Care Buddies and all other non-medical staff.\n\u2022 The only exception is a trained medical caregiver (doctor, nurse or paramedic) whose medical certificate PulseGrid has checked, and only while they are looking after you: during an SOS or a medical visit you booked. They see your emergency details: age, blood group, conditions, allergies, medicines, treatment wishes and who to call. Your Health vault files stay private.\n\u2022 A Care Buddy on a visit sees only your name and flat number.\n\u2022 A doctor sees a record only through a link you share, until the link expires.\n\u2022 Your proof of residence is seen only by the PulseGrid verifier who approves your account.\n\nTo download a copy or delete everything: Me \u2192 Privacy & my data.")
-B.a5p=new A.cs("consent","Why do I record my consent on video?",'So there is never any doubt about what you agreed to. You (or a caregiver or guardian) read the consent aloud on video. The video stays on your own phone: PulseGrid keeps only its fingerprint, a code that proves later that the video is the original. PulseGrid may ask for the video only if there is a legal dispute between you and PulseGrid. Turning that permission off pauses services until you turn it back on. See Me \u2192 My consents, and "Consent, in plain words" for the kinds of consent.')
-B.a5y=new A.cs("pending","My society approval is still pending","PulseGrid checks the proof of residence you uploaded, and your society office (RWA) confirms your name and flat number. If it takes more than 2 days, please write to us below.")
-B.a5G=new A.cs("sos","Is SOS available yet?","PulseGrid SOS is being set up with medics in partner societies. Until it is switched on for your society, please call 112 (emergency) or 108 (ambulance) directly.")
-B.a5H=new A.cs("data","How do I download or delete my data?",'Me \u2192 Privacy & my data. "Download a copy" saves everything we store; "Delete my account" erases it all permanently.')
-B.WU=s([B.a5o,B.a5x,B.a5t,B.a5j,B.a5E,B.a5p,B.a5y,B.a5G,B.a5H],t.iT)
 B.a5U=new A.eb([B.fT,"Hospital & doctor visit","Goes with you, handles queues, notes what the doctor says","\u20b9249 / hour"])
 B.Sm=new A.a0(62333,"MaterialIcons",!1)
 B.a5J=new A.eb([B.Sm,"Errands & medicine pickup","Pharmacy, groceries, reports from the lab","\u20b9199 / trip"])
@@ -127739,8 +127729,8 @@ B.So=new A.a0(62377,"MaterialIcons",!1)
 B.a5L=new A.eb([B.So,"Phone & tech help","Video calls, UPI, this app, WhatsApp","\u20b9149 / visit"])
 B.Sr=new A.a0(62552,"MaterialIcons",!1)
 B.a5M=new A.eb([B.Sr,"Travel companion","Railway station, airport, out-of-town appointments","Talk to us"])
-B.WV=s([B.a5U,B.a5J,B.a5Q,B.a5K,B.a5N,B.a5L,B.a5M],t.wx)
-B.X_=s(["","Poor","Not good","Okay","Good","Excellent"],t.s)
+B.WU=s([B.a5U,B.a5J,B.a5Q,B.a5K,B.a5N,B.a5L,B.a5M],t.wx)
+B.WZ=s(["","Poor","Not good","Okay","Good","Excellent"],t.s)
 B.bC=new A.h5(0,"icon")
 B.bY=new A.h5(1,"input")
 B.aY=new A.h5(2,"label")
@@ -127752,7 +127742,7 @@ B.bM=new A.h5(7,"suffixIcon")
 B.d6=new A.h5(8,"helperError")
 B.d7=new A.h5(9,"counter")
 B.eg=new A.h5(10,"container")
-B.X0=s([B.bC,B.bY,B.aY,B.c5,B.c6,B.c7,B.aR,B.bM,B.d6,B.d7,B.eg],A.ax("C<h5>"))
+B.X_=s([B.bC,B.bY,B.aY,B.c5,B.c6,B.c7,B.aR,B.bM,B.d6,B.d7,B.eg],A.ax("C<h5>"))
 B.T5=new A.a0(983269,"MaterialIcons",!1)
 B.On=new A.kG(B.T5,"Clear consent (spoken or written)",'You say "yes" plainly: out loud, on video, by signing, or by ticking a box.',"Reading the PulseGrid consent aloud on video.")
 B.Ol=new A.kG(B.v4,"Informed consent","Before anything is done to you, you are told what it is, why it is needed, what could go wrong and what else you could choose. Then you decide.","Before an injection at home, the nurse tells you which medicine it is and why you need it.")
@@ -127764,7 +127754,7 @@ B.To=new A.a0(985217,"MaterialIcons",!1)
 B.Oq=new A.kG(B.To,"Consent through a caregiver","For an adult who cannot use a phone: the caregiver reads the consent to them, they agree, and the caregiver records it on video.","A son reads the consent to his father and records it.")
 B.Or=new A.kG(B.eM,"Consent to use your data","Your permission for PulseGrid to keep and use your details and health information to look after you. India's data protection law (DPDP Act, 2023) gives you rights over this data.","Me \u2192 Privacy & my data shows everything kept, and lets you download or delete it.")
 B.Oo=new A.kG(B.ol,"Saying no, and changing your mind","You can refuse any check, treatment or service, and take back your consent at any time. Taking it back does not undo what was already done with your OK.",'During a visit you can simply say "stop".')
-B.X1=s([B.On,B.Ol,B.Op,B.Ok,B.Om,B.Oq,B.Or,B.Oo],A.ax("C<kG>"))
+B.X0=s([B.On,B.Ol,B.Op,B.Ok,B.Om,B.Oq,B.Or,B.Oo],A.ax("C<kG>"))
 B.Z6=new A.uF("en",null,"US")
 B.vV=s([B.Z6],t.ss)
 B.a59=new A.a1("Where the video is","Only on your phone, or wherever you choose to save it. PulseGrid never uploads it.")
@@ -127784,18 +127774,18 @@ B.vZ=s(["Male","Female","Other"],t.s)
 B.Ry=new A.nG("Dr. Anaya Sharma","AS","Community Doctor","2 hrs ago \xb7 Health Tips","Free BP screening camp this Saturday at the Clubhouse","Walk-in 8\u201311 AM. Bring your last lab report if any. Refreshments sponsored by the RWA.",84,23)
 B.Rz=new A.nG("Pooja K","PK",null,"Yesterday \xb7 Q&A","Any good paediatric physio in the area?","My son sprained his ankle last week. Looking for someone who can do home visits.",12,9)
 B.Rx=new A.nG("RWA Office","RW","RWA","3 days ago \xb7 Notice","PulseGrid medic station now open at Tower B lobby","Kit checked daily. Medic on duty 24\xd77. Use the SOS button in the app \u2014 don't call the guard first.",141,31)
-B.X4=s([B.Ry,B.Rz,B.Rx],A.ax("C<nG>"))
+B.X3=s([B.Ry,B.Rz,B.Rx],A.ax("C<nG>"))
 B.w_=s([0,21,51,121,151,191,271,321,360],t.n)
-B.Xb=s(["Penicillin","Sulfa drugs","NSAIDs / Aspirin","Contrast dye","Latex","Peanuts","Eggs","Dust"],t.s)
+B.Xa=s(["Penicillin","Sulfa drugs","NSAIDs / Aspirin","Contrast dye","Latex","Peanuts","Eggs","Dust"],t.s)
 B.bU=new A.v8(0,"portrait")
 B.dG=new A.v8(1,"landscape")
 B.w0=s([B.bU,B.dG],A.ax("C<v8>"))
-B.Xc=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
+B.Xb=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
 B.Jv=new A.Se(2,"outer")
 B.tc=new A.L(0.09803921568627451,0,0,0,B.l)
 B.m=new A.k(0,0)
 B.Ka=new A.bX(0.2,B.Jv,B.tc,B.m,11)
-B.Xf=s([B.Ka],t.F)
+B.Xe=s([B.Ka],t.F)
 B.ah7=new A.bM(0,5)
 B.ah_=new A.bM(0,10)
 B.ah0=new A.bM(0,15)
@@ -127807,7 +127797,7 @@ B.ah5=new A.bM(0,40)
 B.ah6=new A.bM(0,45)
 B.ah8=new A.bM(0,50)
 B.ah9=new A.bM(0,55)
-B.Xh=s([B.HE,B.ah7,B.ah_,B.ah0,B.ah1,B.ah2,B.ah3,B.ah4,B.ah5,B.ah6,B.ah8,B.ah9],t.JN)
+B.Xg=s([B.HE,B.ah7,B.ah_,B.ah0,B.ah1,B.ah2,B.ah3,B.ah4,B.ah5,B.ah6,B.ah8,B.ah9],t.JN)
 B.V1=new A.q8("HbA1c","Diabetes",399)
 B.V3=new A.q8("Vitamin D","Deficiency",599)
 B.V_=new A.q8("Complete Blood Count","Routine",299)
@@ -127816,26 +127806,26 @@ B.V0=new A.q8("Kidney Function Test","Kidney",549)
 B.kC=s([B.V1,B.V3,B.V_,B.V2,B.V0],A.ax("C<q8>"))
 B.H2=new A.JD(0,"left")
 B.H3=new A.JD(1,"right")
-B.Xi=s([B.H2,B.H3],A.ax("C<JD>"))
-B.XN=s(["Daily nurse visit \xb7 1 hr","BP, SpO\u2082, sugar monitoring","Weekly doctor call","24\xd77 emergency hotline"],t.s)
-B.a3o=new A.HD("Essential",999,B.XN,!0)
+B.Xh=s([B.H2,B.H3],A.ax("C<JD>"))
+B.XM=s(["Daily nurse visit \xb7 1 hr","BP, SpO\u2082, sugar monitoring","Weekly doctor call","24\xd77 emergency hotline"],t.s)
+B.a3o=new A.HD("Essential",999,B.XM,!0)
 B.WG=s(["12-hr nurse on site","Oxygen concentrator + monitor","Daily doctor review","Priority SOS dispatch"],t.s)
 B.a3p=new A.HD("Critical Care",4999,B.WG,!1)
-B.Xj=s([B.a3o,B.a3p],A.ax("C<HD>"))
+B.Xi=s([B.a3o,B.a3p],A.ax("C<HD>"))
 B.aD=new A.JQ(0,"upstream")
-B.Xl=s([B.aD,B.q],A.ax("C<JQ>"))
+B.Xk=s([B.aD,B.q],A.ax("C<JQ>"))
 B.aV=new A.JV(0,"rtl")
 B.a6=new A.JV(1,"ltr")
 B.oM=s([B.aV,B.a6],A.ax("C<JV>"))
 B.R8=new A.lZ(0,"verified")
 B.R9=new A.lZ(1,"unverified")
-B.Xm=s([B.R8,B.R9,B.uA],A.ax("C<lZ>"))
+B.Xl=s([B.R8,B.R9,B.uA],A.ax("C<lZ>"))
 B.S3=new A.a0(61656,"MaterialIcons",!1)
 B.a4P=new A.a1(B.S3,"Add family members")
 B.a5d=new A.a1(B.oC,"Note known conditions & medicines")
 B.a4A=new A.a1(B.oD,"Set emergency contacts & hospital")
 B.a52=new A.a1(B.ok,"Link your ABHA")
-B.Xn=s([B.a4P,B.a5d,B.a4A,B.a52],A.ax("C<+(a0,j)>"))
+B.Xm=s([B.a4P,B.a5d,B.a4A,B.a52],A.ax("C<+(a0,j)>"))
 B.h_=s(["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],t.s)
 B.IB=new A.t0("Care Buddy hours \u2014 pack of 10","\u20b91,999","Use any time in 3 months",B.oE)
 B.Sf=new A.a0(62069,"MaterialIcons",!1)
@@ -127843,25 +127833,25 @@ B.IC=new A.t0("Extra family member","\u20b949 / month","Beyond your plan limit",
 B.S6=new A.a0(61681,"MaterialIcons",!1)
 B.IE=new A.t0("After-hospital recovery \u2014 30 days","\u20b94,999","Nurse visits, physio, daily check-ins",B.S6)
 B.ID=new A.t0("Home ICU set-up","Talk to us","Bed, monitor, oxygen and trained staff",B.fW)
-B.Xt=s([B.IB,B.IC,B.IE,B.ID],A.ax("C<t0>"))
+B.Xs=s([B.IB,B.IC,B.IE,B.ID],A.ax("C<t0>"))
 B.LV=new A.xQ(0,"auto")
 B.LW=new A.xQ(1,"full")
 B.LX=new A.xQ(2,"chromium")
-B.Xu=s([B.LV,B.LW,B.LX],A.ax("C<xQ>"))
+B.Xt=s([B.LV,B.LW,B.LX],A.ax("C<xQ>"))
 B.ei=new A.ly(0,"leading")
 B.cL=new A.ly(1,"title")
 B.ej=new A.ly(2,"subtitle")
 B.hy=new A.ly(3,"trailing")
-B.Xw=s([B.ei,B.cL,B.ej,B.hy],A.ax("C<ly>"))
+B.Xv=s([B.ei,B.cL,B.ej,B.hy],A.ax("C<ly>"))
 B.a5e=new A.cs(B.fW,"Healthcare right at your gate.","A trained medic stationed in your society \u2014 at your door in about 10\u201315 minutes when it matters.")
-B.a5z=new A.cs(B.kt,"One app for the whole family.","Profiles for parents, kids and you. Lab tests, medicines and doctor calls in a few taps.")
+B.a5A=new A.cs(B.kt,"One app for the whole family.","Profiles for parents, kids and you. Lab tests, medicines and doctor calls in a few taps.")
 B.a5f=new A.cs(B.fU,"Your records, your control.","Health records linked to ABHA, encrypted, and shared only with your consent.")
-B.Xx=s([B.a5e,B.a5z,B.a5f],A.ax("C<+(a0,j,j)>"))
-B.XA=s([B.ey,B.dZ,B.i_,B.ez],A.ax("C<lP>"))
-B.XC=s(["Sharing your records with anyone else.","Research, photos or videos of you.","Anything not needed to help you right then.","Anything you have already said no to."],t.s)
-B.XD=s(["Chest pain / breathless","Fall / injury","Unconscious","Stroke signs","Sugar low/high","Other"],t.s)
+B.Xw=s([B.a5e,B.a5A,B.a5f],A.ax("C<+(a0,j,j)>"))
+B.Xz=s([B.ey,B.dZ,B.i_,B.ez],A.ax("C<lP>"))
+B.XB=s(["Sharing your records with anyone else.","Research, photos or videos of you.","Anything not needed to help you right then.","Anything you have already said no to."],t.s)
+B.XC=s(["Chest pain / breathless","Fall / injury","Unconscious","Stroke signs","Sugar low/high","Other"],t.s)
 B.bI=new A.hP(1,"fuchsia")
-B.XE=s([B.az,B.bI,B.W,B.bt,B.aU,B.bu],A.ax("C<hP>"))
+B.XD=s([B.az,B.bI,B.W,B.bt,B.aU,B.bu],A.ax("C<hP>"))
 B.w2=s(["Problem with a service","App not working","Account or my data","Idea or suggestion","Other"],t.s)
 B.I3=new A.Bu(0,"topLeft")
 B.I6=new A.Bu(3,"bottomRight")
@@ -127871,15 +127861,15 @@ B.I4=new A.Bu(1,"topRight")
 B.I5=new A.Bu(2,"bottomLeft")
 B.ajj=new A.oZ(B.I4,B.I5)
 B.ajk=new A.oZ(B.I5,B.I4)
-B.XF=s([B.aji,B.ajl,B.ajj,B.ajk],A.ax("C<oZ>"))
+B.XE=s([B.aji,B.ajl,B.ajj,B.ajk],A.ax("C<oZ>"))
 B.cF=s([0,0.55,1],t.n)
 B.w3=s(["A+","A-","B+","B-","AB+","AB-","O+","O-","Unknown"],t.s)
-B.XG=s(["Before food","After food","With food","Empty stomach","At bedtime"],t.s)
-B.XI=s([35,30,20,25,30,35,30,25,25],t.n)
+B.XF=s(["Before food","After food","With food","Empty stomach","At bedtime"],t.s)
+B.XH=s([35,30,20,25,30,35,30,25,25],t.n)
 B.hx=new A.mV(0,"hour")
 B.m5=new A.mV(1,"minute")
 B.w4=s([B.hx,B.m5],A.ax("C<mV>"))
-B.XM=s(["click","scroll"],t.s)
+B.XL=s(["click","scroll"],t.s)
 B.bq=new A.Yk(0,"fixed")
 B.Mp=new A.cd("Splash","/",B.bq,"Startup check \u2192 right screen",!0)
 B.aF=new A.Yk(1,"isNew")
@@ -127899,8 +127889,8 @@ B.Ml=new A.cd("Member consent & caregiver","/member-consent",B.aF,"Adults, minor
 B.M1=new A.cd("Medical history","/medical-history",B.bq,"Medicines, implants, mobility",!0)
 B.MC=new A.cd("Emergency info","/emergency-info",B.aF,"Contacts, hospital, directives",!0)
 B.M9=new A.cd("ABHA","/abha",B.bq,"Link ABHA \xb7 no Aadhaar stored",!0)
-B.Yk=s([B.ME,B.Ml,B.M1,B.MC,B.M9],t.kD)
-B.MM=new A.lL("02","Health profile","Family, consent, history, ABHA",B.Yk)
+B.Yj=s([B.ME,B.Ml,B.M1,B.MC,B.M9],t.kD)
+B.MM=new A.lL("02","Health profile","Family, consent, history, ABHA",B.Yj)
 B.MI=new A.cd("Home","/home",B.bq,"Honest SOS promise",!0)
 B.M8=new A.cd("SOS \xb7 who & where","/sos",B.aF,"Patient, location, cancel window",!1)
 B.Mh=new A.cd("SOS \xb7 live dispatch","/sos/dispatch",B.bq,"ETA, family notified, offline fallback",!1)
@@ -127941,67 +127931,67 @@ B.oN=s([B.MN,B.MM,B.MK,B.ML,B.MJ],A.ax("C<lL>"))
 B.KC=new A.pn()
 B.lf=new A.Yo(1,"page")
 B.lg=new A.h0(B.bj,B.lf)
-B.XO=s([B.KC,B.lg],A.ax("C<bz>"))
-B.XQ=s(["Your society verification \u2014 already done when you joined in the app","One photo ID of the account holder: Aadhaar, PAN, passport or driving licence (for the invoice and KYC)","Consent recorded in the app for every adult family member (Family \u2192 each person)","UPI autopay mandate or card \u2014 set up on the call, never typed into the app"],t.s)
+B.XN=s([B.KC,B.lg],A.ax("C<bz>"))
+B.XP=s(["Your society verification \u2014 already done when you joined in the app","One photo ID of the account holder: Aadhaar, PAN, passport or driving licence (for the invoice and KYC)","Consent recorded in the app for every adult family member (Family \u2192 each person)","UPI autopay mandate or card \u2014 set up on the call, never typed into the app"],t.s)
 B.a5m=new A.cs("Order placed","12:51 PM",!0)
-B.a5s=new A.cs("Pharmacist verified Rx","1:04 PM",!0)
-B.a5C=new A.cs("Packed at MedPlus, Gomti Nagar","1:20 PM",!0)
-B.a5D=new A.cs("Out for delivery \xb7 Sunil","ETA 1:55 PM",!1)
-B.a5B=new A.cs("Delivered","",!1)
-B.kD=s([B.a5m,B.a5s,B.a5C,B.a5D,B.a5B],A.ax("C<+(j,j,F)>"))
-B.Y4=s([],t.QP)
+B.a5t=new A.cs("Pharmacist verified Rx","1:04 PM",!0)
+B.a5D=new A.cs("Packed at MedPlus, Gomti Nagar","1:20 PM",!0)
+B.a5E=new A.cs("Out for delivery \xb7 Sunil","ETA 1:55 PM",!1)
+B.a5C=new A.cs("Delivered","",!1)
+B.kD=s([B.a5m,B.a5t,B.a5D,B.a5E,B.a5C],A.ax("C<+(j,j,F)>"))
+B.Y3=s([],t.QP)
 B.w5=s([],t.F)
-B.XX=s([],t.Ug)
+B.XW=s([],t.Ug)
 B.w7=s([],A.ax("C<bxq>"))
-B.Y7=s([],t.E)
-B.XY=s([],t.Kz)
-B.Y6=s([],t.fJ)
-B.XU=s([],t.ER)
+B.Y6=s([],t.E)
+B.XX=s([],t.Kz)
+B.Y5=s([],t.fJ)
+B.XT=s([],t.ER)
 B.aln=s([],t.ss)
 B.h0=s([],t.H7)
 B.oP=s([],A.ax("C<hM>"))
 B.w6=s([],t.tc)
 B.kF=s([],t.jl)
 B.w8=s([],t.wi)
-B.Y2=s([],A.ax("C<ml<@>>"))
-B.XZ=s([],A.ax("C<qE>"))
+B.Y1=s([],A.ax("C<ml<@>>"))
+B.XY=s([],A.ax("C<qE>"))
 B.oO=s([],t.AO)
-B.Y8=s([],t.D1)
+B.Y7=s([],t.D1)
 B.kE=s([],t.QF)
-B.Y1=s([],A.ax("C<mA>"))
-B.Y5=s([],t.Lx)
-B.XW=s([],t.AS)
-B.Y0=s([],t.p)
-B.XV=s([],t.n)
-B.XT=s([],t.t)
+B.Y0=s([],A.ax("C<mA>"))
+B.Y4=s([],t.Lx)
+B.XV=s([],t.AS)
+B.Y_=s([],t.p)
+B.XU=s([],t.n)
+B.XS=s([],t.t)
 B.oQ=s([],t.ee)
-B.Y_=s([],t._m)
-B.Y9=s(["Walks unaided","Walks with support","Wheelchair","Bed-bound"],t.s)
-B.a5q=new A.cs("hi","\u0939\u093f\u0928\u094d\u0926\u0940","Hindi")
-B.a5w=new A.cs("en","English","English")
-B.a5v=new A.cs("ur","\u0627\u0631\u062f\u0648","Urdu")
-B.Ya=s([B.a5q,B.a5w,B.a5v],t.iT)
-B.Yc=s(["S","M","T","W","T","F","S"],t.s)
-B.Ye=s(["Mr","Mrs","Ms","Miss","Master","Dr"],t.s)
-B.Yg=s(["Create a free project at supabase.com (region: Mumbai).","SQL Editor \u2192 run supabase/migrations/0001_onboarding_profile.sql, then 0002_med_reminders.sql.","Authentication \u2192 Sign In / Providers \u2192 turn on Phone, add a test number.","Project Settings \u2192 API \u2192 copy the Project URL and anon key into lib/config.dart.","Stop the app and run it again."],t.s)
-B.Yh=s([!0,!0,!0,!1,!0,!0,null],A.ax("C<F?>"))
+B.XZ=s([],t._m)
+B.Y8=s(["Walks unaided","Walks with support","Wheelchair","Bed-bound"],t.s)
+B.a5r=new A.cs("hi","\u0939\u093f\u0928\u094d\u0926\u0940","Hindi")
+B.a5x=new A.cs("en","English","English")
+B.a5w=new A.cs("ur","\u0627\u0631\u062f\u0648","Urdu")
+B.Y9=s([B.a5r,B.a5x,B.a5w],t.iT)
+B.Yb=s(["S","M","T","W","T","F","S"],t.s)
+B.Yd=s(["Mr","Mrs","Ms","Miss","Master","Dr"],t.s)
+B.Yf=s(["Create a free project at supabase.com (region: Mumbai).","SQL Editor \u2192 run supabase/migrations/0001_onboarding_profile.sql, then 0002_med_reminders.sql.","Authentication \u2192 Sign In / Providers \u2192 turn on Phone, add a test number.","Project Settings \u2192 API \u2192 copy the Project URL and anon key into lib/config.dart.","Stop the app and run it again."],t.s)
+B.Yg=s([!0,!0,!0,!1,!0,!0,null],A.ax("C<F?>"))
 B.a4u=new A.a1("Fri","2")
 B.a49=new A.a1("Sat","3")
 B.a54=new A.a1("Sun","4")
 B.a4k=new A.a1("Mon","5")
-B.Yj=s([B.a4u,B.a49,B.a54,B.a4k],t.Wy)
+B.Yi=s([B.a4u,B.a49,B.a54,B.a4k],t.Wy)
 B.kW=new A.k(0,2)
 B.K8=new A.bX(0.75,B.ag,B.tc,B.kW,1.5)
-B.Yn=s([B.K8],t.F)
-B.Yo=s([B.HH,B.HI,B.HJ,B.HK,B.HL,B.HM,B.HN,B.HO,B.qo,B.HP,B.HF,B.HG],t.JN)
-B.Yq=s([43,95,45,46,48,49,50,51,52,53,54,55,56,57,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122],t.t)
-B.Yu=s([47,47,47,47,72,97,122,147],t.t)
+B.Ym=s([B.K8],t.F)
+B.Yn=s([B.HH,B.HI,B.HJ,B.HK,B.HL,B.HM,B.HN,B.HO,B.qo,B.HP,B.HF,B.HG],t.JN)
+B.Yp=s([43,95,45,46,48,49,50,51,52,53,54,55,56,57,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122],t.t)
+B.Yt=s([47,47,47,47,72,97,122,147],t.t)
 B.a4l=new A.a1("Morning",480)
 B.a4c=new A.a1("Afternoon",840)
 B.a4h=new A.a1("Evening",1080)
 B.a4m=new A.a1("Night",1260)
 B.w9=s([B.a4l,B.a4c,B.a4h,B.a4m],t.r1)
-B.Yw=s(["Report","Prescription","Scan","Discharge summary","Vaccination","Bill","Other"],t.s)
+B.Yv=s(["Report","Prescription","Scan","Discharge summary","Vaccination","Bill","Other"],t.s)
 B.io=s([B.en,B.c9,B.jf,B.jg,B.jh],t.QP)
 B.a_D=new A.ds("application/pdf","%PDF",null)
 B.a_B=new A.ds("application/postscript","%Q",null)
@@ -128032,34 +128022,34 @@ B.a_C=new A.ds("font/woff2","wOF2",null)
 B.a_X=new A.ds("image/heic","\x00\x00\x00\x00ftypheic","\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff")
 B.a_M=new A.ds("image/heic","\x00\x00\x00\x00ftypheix","\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff")
 B.a_Q=new A.ds("image/heif","\x00\x00\x00\x00ftypmif1","\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff")
-B.Yx=s([B.a_D,B.a_B,B.a_W,B.a_Z,B.a_I,B.a_S,B.a_E,B.a_G,B.a_A,B.a_H,B.a_R,B.a_J,B.a_N,B.a_U,B.a_F,B.a_T,B.a_K,B.a_y,B.a_z,B.a0_,B.a_L,B.a_O,B.a_P,B.a_V,B.a_Y,B.a_C,B.a_X,B.a_M,B.a_Q],t.gg)
+B.Yw=s([B.a_D,B.a_B,B.a_W,B.a_Z,B.a_I,B.a_S,B.a_E,B.a_G,B.a_A,B.a_H,B.a_R,B.a_J,B.a_N,B.a_U,B.a_F,B.a_T,B.a_K,B.a_y,B.a_z,B.a0_,B.a_L,B.a_O,B.a_P,B.a_V,B.a_Y,B.a_C,B.a_X,B.a_M,B.a_Q],t.gg)
 B.akO=new A.xe("1","9:30 AM","Automated voice call to Kamla ji",null)
 B.akP=new A.xe("2","9:45 AM","Alert to Amit & Neha",null)
 B.akN=new A.xe("3","10:00 AM","Buddy knocks on the door",null)
 B.akQ=new A.xe("4","No answer","Medic dispatched (SOS)",null)
-B.Yy=s([B.akO,B.akP,B.akN,B.akQ],t.p)
-B.YA=s(["Hypertension","Type 2 Diabetes","Type 1 Diabetes","Asthma","Hypothyroidism","Arthritis","High cholesterol","Heart disease (CAD)","Heart failure","COPD","Epilepsy","Kidney disease","Stroke (past)","Cancer (past/current)","Dementia","Parkinson's"],t.s)
-B.YB=s(["oneTimeCode"],t.s)
+B.Yx=s([B.akO,B.akP,B.akN,B.akQ],t.p)
+B.Yz=s(["Hypertension","Type 2 Diabetes","Type 1 Diabetes","Asthma","Hypothyroidism","Arthritis","High cholesterol","Heart disease (CAD)","Heart failure","COPD","Epilepsy","Kidney disease","Stroke (past)","Cancer (past/current)","Dementia","Parkinson's"],t.s)
+B.YA=s(["oneTimeCode"],t.s)
 B.wa=s([B.da,B.ft,B.mw,B.hE,B.ra],A.ax("C<iZ>"))
-B.YE=s(["pdf","jpg","jpeg","png"],t.s)
+B.YD=s(["pdf","jpg","jpeg","png"],t.s)
 B.Hu=new A.aL("Save",null,null,null,null,null,null,null,null,null)
 B.a3z=new A.od("Post saved",B.Hu,null,t.wI)
 B.afC=new A.aL("Report",null,null,null,null,null,null,null,null,null)
 B.a3y=new A.od("Reported to moderators",B.afC,null,t.wI)
 B.afX=new A.aL("Mute author",null,null,null,null,null,null,null,null,null)
 B.a3w=new A.od("Author muted",B.afX,null,t.wI)
-B.YH=s([B.a3z,B.a3y,B.a3w],t.Do)
+B.YG=s([B.a3z,B.a3y,B.a3w],t.Do)
 B.Wj=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
-B.XP=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
+B.XO=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
 B.WC=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
-B.YI=s([B.Wj,B.XP,B.WC],t.zg)
-B.YJ=s([45,95,45,20,45,90,45,45,45],t.n)
-B.YK=s([120,120,20,45,20,15,20,120,120],t.n)
-B.YM=s(["F","S","S","M","T","W","T"],t.s)
+B.YH=s([B.Wj,B.XO,B.WC],t.zg)
+B.YI=s([45,95,45,20,45,90,45,45,45],t.n)
+B.YJ=s([120,120,20,45,20,15,20,120,120],t.n)
+B.YL=s(["F","S","S","M","T","W","T"],t.s)
 B.a5F=new A.cs("Telmisartan 80 mg","1 tab \xb7 morning \xb7 30 days","Dose increased from 40 mg")
-B.a5r=new A.cs("Amlodipine 5 mg","1 tab \xb7 night \xb7 30 days","New")
-B.a5A=new A.cs("Metformin 500 mg","1 tab \xb7 after lunch & dinner","Continue")
-B.YO=s([B.a5F,B.a5r,B.a5A],t.iT)
+B.a5s=new A.cs("Amlodipine 5 mg","1 tab \xb7 night \xb7 30 days","New")
+B.a5B=new A.cs("Metformin 500 mg","1 tab \xb7 after lunch & dinner","Continue")
+B.YN=s([B.a5F,B.a5s,B.a5B],t.iT)
 B.ce=s(["self","given","guardian","caregiver"],t.s)
 B.h1=new A.ji(0,"controlModifier")
 B.h2=new A.ji(1,"shiftModifier")
@@ -128071,14 +128061,14 @@ B.pb=new A.ji(6,"scrollLockModifier")
 B.pc=new A.ji(7,"functionModifier")
 B.Bj=new A.ji(8,"symbolModifier")
 B.wb=s([B.h1,B.h2,B.h3,B.h4,B.p9,B.pa,B.pb,B.pc,B.Bj],A.ax("C<ji>"))
-B.YQ=s(["Electricity bill","Rent agreement","Maintenance receipt","Sale deed / allotment letter"],t.s)
+B.YP=s(["Electricity bill","Rent agreement","Maintenance receipt","Sale deed / allotment letter"],t.s)
 B.oR=s([!0,!1],t.HZ)
 B.Nf=new A.L(0.14901960784313725,0,0,0,B.l)
 B.e8=new A.k(0,3)
 B.Kc=new A.bX(0,B.ag,B.Nf,B.e8,8)
 B.Oc=new A.L(0.058823529411764705,0,0,0,B.l)
 B.Kl=new A.bX(0,B.ag,B.Oc,B.e8,1)
-B.YS=s([B.Kc,B.Kl],t.F)
+B.YR=s([B.Kc,B.Kl],t.F)
 B.Fi=new A.dO(0,"abstime")
 B.Fj=new A.dO(1,"bool")
 B.Fu=new A.dO(2,"date")
@@ -128103,16 +128093,26 @@ B.Fv=new A.dO(20,"timestamptz")
 B.Fw=new A.dO(21,"timetz")
 B.Fx=new A.dO(22,"tsrange")
 B.Fy=new A.dO(23,"tstzrange")
-B.YV=s([B.Fi,B.Fj,B.Fu,B.Fz,B.FA,B.FB,B.FC,B.FD,B.FE,B.FF,B.Fk,B.Fl,B.Fm,B.Fn,B.Fo,B.Fp,B.Fq,B.Fr,B.Fs,B.Ft,B.Fv,B.Fw,B.Fx,B.Fy],A.ax("C<dO>"))
+B.YU=s([B.Fi,B.Fj,B.Fu,B.Fz,B.FA,B.FB,B.FC,B.FD,B.FE,B.FF,B.Fk,B.Fl,B.Fm,B.Fn,B.Fo,B.Fp,B.Fq,B.Fr,B.Fs,B.Ft,B.Fv,B.Fw,B.Fx,B.Fy],A.ax("C<dO>"))
 B.Ra=new A.kM(0,"totp")
 B.Rb=new A.kM(1,"phone")
 B.Rc=new A.kM(2,"webauthn")
-B.YW=s([B.Ra,B.Rb,B.Rc,B.uB],A.ax("C<kM>"))
-B.YX=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
-B.YY=s(["6\u20137 AM","7\u20138 AM","8\u20139 AM","9\u201310 AM","5\u20136 PM"],t.s)
+B.YV=s([B.Ra,B.Rb,B.Rc,B.uB],A.ax("C<kM>"))
+B.YW=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
+B.YX=s(["6\u20137 AM","7\u20138 AM","8\u20139 AM","9\u201310 AM","5\u20136 PM"],t.s)
 B.a4W=new A.a1("Telmisartan 40 mg \xd7 1",128)
 B.a4q=new A.a1("Metformin + Glimepiride \xd7 2",245)
-B.Z_=s([B.a4W,B.a4q],t.r1)
+B.YZ=s([B.a4W,B.a4q],t.r1)
+B.a5o=new A.cs("family","How do I add my parents or children?","Go to Me \u2192 Family & consent \u2192 Add family member. Adults then give their consent (in person, or you declare you are their caregiver); for children under 18 you give guardian consent. Until then their health details stay locked.")
+B.a5y=new A.cs("lock","Why is there a \ud83d\udd12 next to a family member?","Their consent hasn't been recorded yet. India's data protection law (DPDP Act) means we can't store their health details until they \u2014 or a guardian for children \u2014 agree. Tap their name to record consent.")
+B.a5u=new A.cs("medicines","How do medicine reminders work?","Add a medicine with its times in Home \u2192 Medications and tick each dose. On the phone app, the phone rings at dose time even when the app is closed. Open the app at least once a week so the alarms stay set.")
+B.a5j=new A.cs("share","How do I send a report to my doctor?",'Open the Health vault, tap the record, then "Share securely". Choose 1 hour, 24 hours or 7 days and send the link on WhatsApp. The link stops working after that time.')
+B.a5q=new A.cs("privacy","Where is my information stored, and who can see it?","It is kept on secure servers in India (Mumbai) and is never sold.\n\n\u2022 Your name and flat number: seen only by the residents and the office (RWA) of your own society.\n\u2022 Everything else (date of birth, phone, health details): hidden from everyone, including the society office, Care Buddies and all other non-medical staff.\n\u2022 The only exception is a trained medical caregiver (doctor, nurse or paramedic) whose medical certificate PulseGrid has checked, and only while they are looking after you: during an SOS or a medical visit you booked. They see your emergency details: age, blood group, conditions, allergies, medicines, treatment wishes and who to call. Your Health vault files stay private.\n\u2022 A Care Buddy on a visit sees only your name and flat number.\n\u2022 A doctor sees a record only through a link you share, until the link expires.\n\u2022 Your proof of residence is seen only by the PulseGrid verifier who approves your account.\n\u2022 PulseGrid's technical team can reach the database only to keep the system running, and is bound by confidentiality.\n\nTo download a copy or delete everything: Me \u2192 Privacy & my data.")
+B.a5p=new A.cs("consent","Why do I record my consent on video?",'So there is never any doubt about what you agreed to. You (or a caregiver or guardian) read the consent aloud on video. The video stays on your own phone: PulseGrid keeps only its fingerprint, a code that proves later that the video is the original. PulseGrid may ask for the video only if there is a legal dispute between you and PulseGrid. Turning that permission off pauses services until you turn it back on. See Me \u2192 My consents, and "Consent, in plain words" for the kinds of consent.')
+B.a5z=new A.cs("pending","My society approval is still pending","PulseGrid checks the proof of residence you uploaded, and your society office (RWA) confirms your name and flat number. If it takes more than 2 days, please write to us below.")
+B.a5G=new A.cs("sos","Is SOS available yet?","PulseGrid SOS is being set up with medics in partner societies. Until it is switched on for your society, please call 112 (emergency) or 108 (ambulance) directly.")
+B.a5H=new A.cs("data","How do I download or delete my data?",'Me \u2192 Privacy & my data. "Download a copy" saves everything we store; "Delete my account" erases it all permanently.')
+B.Z_=s([B.a5o,B.a5y,B.a5u,B.a5j,B.a5q,B.a5p,B.a5z,B.a5G,B.a5H],t.iT)
 B.og=new A.iE(100)
 B.Rq=new A.iE(200)
 B.Rr=new A.iE(300)
@@ -128176,7 +128176,7 @@ B.dd=new A.L(0.1411764705882353,0,0,0,B.l)
 B.d_=new A.k(0,1)
 B.JZ=new A.bX(0,B.ag,B.dd,B.d_,1)
 B.K6=new A.bX(0,B.ag,B.cP,B.d_,3)
-B.YC=s([B.K7,B.JZ,B.K6],t.F)
+B.YB=s([B.K7,B.JZ,B.K6],t.F)
 B.K5=new A.bX(-2,B.ag,B.dc,B.e8,1)
 B.Ki=new A.bX(0,B.ag,B.dd,B.kW,2)
 B.K0=new A.bX(0,B.ag,B.cP,B.d_,5)
@@ -128184,7 +128184,7 @@ B.Wv=s([B.K5,B.Ki,B.K0],t.F)
 B.K_=new A.bX(-2,B.ag,B.dc,B.e8,3)
 B.K2=new A.bX(0,B.ag,B.dd,B.e8,4)
 B.Ks=new A.bX(0,B.ag,B.cP,B.d_,8)
-B.Yp=s([B.K_,B.K2,B.Ks],t.F)
+B.Yo=s([B.K_,B.K2,B.Ks],t.F)
 B.K4=new A.bX(-1,B.ag,B.dc,B.kW,4)
 B.Bp=new A.k(0,4)
 B.Ke=new A.bX(0,B.ag,B.dd,B.Bp,5)
@@ -128211,19 +128211,19 @@ B.Kf=new A.bX(-4,B.ag,B.dc,B.a1k,8)
 B.a1f=new A.k(0,12)
 B.Kb=new A.bX(2,B.ag,B.dd,B.a1f,17)
 B.Kp=new A.bX(4,B.ag,B.cP,B.pe,22)
-B.WX=s([B.Kf,B.Kb,B.Kp],t.F)
+B.WW=s([B.Kf,B.Kb,B.Kp],t.F)
 B.Ko=new A.bX(-5,B.ag,B.dc,B.iD,10)
 B.a1g=new A.k(0,16)
 B.Kh=new A.bX(2,B.ag,B.dd,B.a1g,24)
 B.Ku=new A.bX(5,B.ag,B.cP,B.kX,30)
-B.WW=s([B.Ko,B.Kh,B.Ku],t.F)
+B.WV=s([B.Ko,B.Kh,B.Ku],t.F)
 B.a1e=new A.k(0,11)
 B.K3=new A.bX(-7,B.ag,B.dc,B.a1e,15)
 B.a1i=new A.k(0,24)
 B.Kn=new A.bX(3,B.ag,B.dd,B.a1i,38)
 B.Kg=new A.bX(8,B.ag,B.cP,B.Bq,46)
-B.Xe=s([B.K3,B.Kn,B.Kg],t.F)
-B.a05=new A.dE([0,B.w5,1,B.YC,2,B.Wv,3,B.Yp,4,B.Vt,6,B.WI,8,B.VS,9,B.Wa,12,B.WX,16,B.WW,24,B.Xe],A.ax("dE<w,U<bX>>"))
+B.Xd=s([B.K3,B.Kn,B.Kg],t.F)
+B.a05=new A.dE([0,B.w5,1,B.YB,2,B.Wv,3,B.Yo,4,B.Vt,6,B.WI,8,B.VS,9,B.Wa,12,B.WW,16,B.WV,24,B.Xd],A.ax("dE<w,U<bX>>"))
 B.dj=new A.m(4294968065)
 B.pM=new A.aG(B.dj,!1,!1,!0,!1,B.C)
 B.cW=new A.m(4294968066)
@@ -128762,67 +128762,67 @@ B.W_=s([54,null,null,8589935158],t.Z)
 B.W0=s([55,null,null,8589935159],t.Z)
 B.W1=s([56,null,null,8589935160],t.Z)
 B.W3=s([57,null,null,8589935161],t.Z)
-B.Xo=s([8589934852,8589934852,8589934853,null],t.Z)
+B.Xn=s([8589934852,8589934852,8589934853,null],t.Z)
 B.Vz=s([4294967555,null,4294967555,null],t.Z)
 B.VA=s([4294968065,null,null,8589935154],t.Z)
 B.VB=s([4294968066,null,null,8589935156],t.Z)
 B.VC=s([4294968067,null,null,8589935158],t.Z)
 B.VD=s([4294968068,null,null,8589935160],t.Z)
 B.VI=s([4294968321,null,null,8589935157],t.Z)
-B.Xp=s([8589934848,8589934848,8589934849,null],t.Z)
+B.Xo=s([8589934848,8589934848,8589934849,null],t.Z)
 B.Vy=s([4294967423,null,null,8589935150],t.Z)
 B.VE=s([4294968069,null,null,8589935153],t.Z)
 B.Vx=s([4294967309,null,null,8589935117],t.Z)
 B.VF=s([4294968070,null,null,8589935159],t.Z)
 B.VJ=s([4294968327,null,null,8589935152],t.Z)
-B.Xq=s([8589934854,8589934854,8589934855,null],t.Z)
+B.Xp=s([8589934854,8589934854,8589934855,null],t.Z)
 B.VG=s([4294968071,null,null,8589935155],t.Z)
 B.VH=s([4294968072,null,null,8589935161],t.Z)
-B.Xr=s([8589934850,8589934850,8589934851,null],t.Z)
-B.Bd=new A.dE(["*",B.VK,"+",B.VL,"-",B.VM,".",B.VN,"/",B.VO,"0",B.VP,"1",B.VQ,"2",B.VV,"3",B.VX,"4",B.VY,"5",B.VZ,"6",B.W_,"7",B.W0,"8",B.W1,"9",B.W3,"Alt",B.Xo,"AltGraph",B.Vz,"ArrowDown",B.VA,"ArrowLeft",B.VB,"ArrowRight",B.VC,"ArrowUp",B.VD,"Clear",B.VI,"Control",B.Xp,"Delete",B.Vy,"End",B.VE,"Enter",B.Vx,"Home",B.VF,"Insert",B.VJ,"Meta",B.Xq,"PageDown",B.VG,"PageUp",B.VH,"Shift",B.Xr],A.ax("dE<j,U<w?>>"))
+B.Xq=s([8589934850,8589934850,8589934851,null],t.Z)
+B.Bd=new A.dE(["*",B.VK,"+",B.VL,"-",B.VM,".",B.VN,"/",B.VO,"0",B.VP,"1",B.VQ,"2",B.VV,"3",B.VX,"4",B.VY,"5",B.VZ,"6",B.W_,"7",B.W0,"8",B.W1,"9",B.W3,"Alt",B.Xn,"AltGraph",B.Vz,"ArrowDown",B.VA,"ArrowLeft",B.VB,"ArrowRight",B.VC,"ArrowUp",B.VD,"Clear",B.VI,"Control",B.Xo,"Delete",B.Vy,"End",B.VE,"Enter",B.Vx,"Home",B.VF,"Insert",B.VJ,"Meta",B.Xp,"PageDown",B.VG,"PageUp",B.VH,"Shift",B.Xq],A.ax("dE<j,U<w?>>"))
 B.W2=s([B.wl,null,null,B.B1],t.L)
-B.Yd=s([B.AO,null,null,B.B2],t.L)
+B.Yc=s([B.AO,null,null,B.B2],t.L)
 B.WS=s([B.AP,null,null,B.B3],t.L)
-B.Xv=s([B.AQ,null,null,B.eU],t.L)
+B.Xu=s([B.AQ,null,null,B.eU],t.L)
 B.Vi=s([B.AR,null,null,B.B4],t.L)
-B.YF=s([B.AS,null,null,B.p0],t.L)
-B.Yv=s([B.AT,null,null,B.iy],t.L)
+B.YE=s([B.AS,null,null,B.p0],t.L)
+B.Yu=s([B.AT,null,null,B.iy],t.L)
 B.Wf=s([B.AU,null,null,B.eV],t.L)
-B.YR=s([B.AV,null,null,B.iz],t.L)
-B.Yt=s([B.AW,null,null,B.eW],t.L)
+B.YQ=s([B.AV,null,null,B.iz],t.L)
+B.Ys=s([B.AW,null,null,B.eW],t.L)
 B.W9=s([B.AX,null,null,B.p1],t.L)
 B.Vp=s([B.AY,null,null,B.eX],t.L)
 B.Wx=s([B.AZ,null,null,B.iA],t.L)
-B.Yf=s([B.B_,null,null,B.eY],t.L)
-B.Yl=s([B.B0,null,null,B.iB],t.L)
+B.Ye=s([B.B_,null,null,B.eY],t.L)
+B.Yk=s([B.B0,null,null,B.iB],t.L)
 B.Wk=s([B.iw,B.iw,B.kM,null],t.L)
-B.YG=s([B.kI,null,B.kI,null],t.L)
-B.X5=s([B.dj,null,null,B.eV],t.L)
-B.X6=s([B.cW,null,null,B.eW],t.L)
-B.X7=s([B.cX,null,null,B.eX],t.L)
-B.YP=s([B.dk,null,null,B.eY],t.L)
-B.Yr=s([B.oV,null,null,B.p1],t.L)
+B.YF=s([B.kI,null,B.kI,null],t.L)
+B.X4=s([B.dj,null,null,B.eV],t.L)
+B.X5=s([B.cW,null,null,B.eW],t.L)
+B.X6=s([B.cX,null,null,B.eX],t.L)
+B.YO=s([B.dk,null,null,B.eY],t.L)
+B.Yq=s([B.oV,null,null,B.p1],t.L)
 B.Wl=s([B.iv,B.iv,B.kL,null],t.L)
-B.XJ=s([B.bT,null,null,B.eU],t.L)
-B.X8=s([B.eR,null,null,B.iy],t.L)
+B.XI=s([B.bT,null,null,B.eU],t.L)
+B.X7=s([B.eR,null,null,B.iy],t.L)
 B.W8=s([B.kH,null,null,B.p_],t.L)
-B.X9=s([B.eS,null,null,B.iA],t.L)
-B.Ys=s([B.iu,null,null,B.p0],t.L)
+B.X8=s([B.eS,null,null,B.iA],t.L)
+B.Yr=s([B.iu,null,null,B.p0],t.L)
 B.Wm=s([B.ix,B.ix,B.kN,null],t.L)
-B.Xa=s([B.is,null,null,B.iz],t.L)
-B.XS=s([B.it,null,null,B.iB],t.L)
+B.X9=s([B.is,null,null,B.iz],t.L)
+B.XR=s([B.it,null,null,B.iB],t.L)
 B.Wn=s([B.e5,B.e5,B.eT,null],t.L)
-B.a0n=new A.dE(["*",B.W2,"+",B.Yd,"-",B.WS,".",B.Xv,"/",B.Vi,"0",B.YF,"1",B.Yv,"2",B.Wf,"3",B.YR,"4",B.Yt,"5",B.W9,"6",B.Vp,"7",B.Wx,"8",B.Yf,"9",B.Yl,"Alt",B.Wk,"AltGraph",B.YG,"ArrowDown",B.X5,"ArrowLeft",B.X6,"ArrowRight",B.X7,"ArrowUp",B.YP,"Clear",B.Yr,"Control",B.Wl,"Delete",B.XJ,"End",B.X8,"Enter",B.W8,"Home",B.X9,"Insert",B.Ys,"Meta",B.Wm,"PageDown",B.Xa,"PageUp",B.XS,"Shift",B.Wn],A.ax("dE<j,U<m?>>"))
+B.a0n=new A.dE(["*",B.W2,"+",B.Yc,"-",B.WS,".",B.Xu,"/",B.Vi,"0",B.YE,"1",B.Yu,"2",B.Wf,"3",B.YQ,"4",B.Ys,"5",B.W9,"6",B.Vp,"7",B.Wx,"8",B.Ye,"9",B.Yk,"Alt",B.Wk,"AltGraph",B.YF,"ArrowDown",B.X4,"ArrowLeft",B.X5,"ArrowRight",B.X6,"ArrowUp",B.YO,"Clear",B.Yq,"Control",B.Wl,"Delete",B.XI,"End",B.X7,"Enter",B.W8,"Home",B.X8,"Insert",B.Yr,"Meta",B.Wm,"PageDown",B.X9,"PageUp",B.XR,"Shift",B.Wn],A.ax("dE<j,U<m?>>"))
 B.a14={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.Be=new A.ck(B.a14,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.a13={"zh-Hant":0,"zh-TW":1,"zh-MO":2,"zh-HK":3,ja:4,ko:5,zh:6,"zh-Hans":7,"zh-CN":8}
 B.oL=s(["Noto Sans TC"],t.s)
-B.Xz=s(["Noto Sans HK","Noto Sans TC"],t.s)
+B.Xy=s(["Noto Sans HK","Noto Sans TC"],t.s)
 B.W5=s(["Noto Sans JP"],t.s)
 B.Vs=s(["Noto Sans KR"],t.s)
 B.w1=s(["Noto Sans SC"],t.s)
-B.YZ=s(["Noto Sans SC","Noto Sans TC"],t.s)
-B.kR=new A.ck(B.a13,[B.oL,B.oL,B.oL,B.Xz,B.W5,B.Vs,B.w1,B.w1,B.YZ],t.VJ)
+B.YY=s(["Noto Sans SC","Noto Sans TC"],t.s)
+B.kR=new A.ck(B.a13,[B.oL,B.oL,B.oL,B.Xy,B.W5,B.Vs,B.w1,B.w1,B.YY],t.VJ)
 B.a0p=new A.dE([B.j5,-7,B.ho,1,B.lN,7,B.fe,-1],A.ax("dE<oN,w>"))
 B.a1_={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
 B.Em=new A.K(458907)
@@ -129311,8 +129311,8 @@ B.a3u=new A.zK(4,"unknown")
 B.a9u=new A.c5(16,null,null,null)
 B.afE=new A.aL("Deleting your account\u2026",null,null,null,null,null,null,null,null,null)
 B.R2=new A.cg(1,B.a4,B.afE,null)
-B.Yb=s([B.GW,B.a9u,B.R2],t.p)
-B.a64=new A.vG(B.aB,B.e,B.f,B.j,null,B.k,null,0,B.Yb,null)
+B.Ya=s([B.GW,B.a9u,B.R2],t.p)
+B.a64=new A.vG(B.aB,B.e,B.f,B.j,null,B.k,null,0,B.Ya,null)
 B.IJ=new A.t2(null,null,B.a64,null,null)
 B.a3v=new A.mq(B.IJ,null,!1,null,A.ax("mq<@>"))
 B.Hy=new A.aL("Remove",null,null,null,null,null,null,null,null,null)
@@ -129403,7 +129403,7 @@ B.Se=new A.a0(62054,"MaterialIcons",!1)
 B.a5l=new A.cs("Pay on delivery","Cash or UPI at door",B.Se)
 B.SF=new A.a0(63100,"MaterialIcons",!1)
 B.a5n=new A.cs("Card","Credit / debit card",B.SF)
-B.a5u=new A.cs("At your door","",!1)
+B.a5v=new A.cs("At your door","",!1)
 B.a5V=new A.H(-1/0,-1/0,1/0,1/0)
 B.f2=new A.H(-1e9,-1e9,1e9,1e9)
 B.f3=new A.qH(0,"drag")
@@ -129450,8 +129450,8 @@ B.d2=new A.c5(14,null,null,null)
 B.afe=new A.v(!0,B.i,null,null,null,null,18,B.Q,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.afV=new A.aL("Arriving in ~25 min",null,B.afe,null,null,null,null,null,null,null)
 B.agz=new A.aL("Order #PG-28431 \xb7 2 items \xb7 \u20b9336",null,B.j4,null,null,null,null,null,null,null)
-B.YN=s([B.afV,B.agz],t.p)
-B.Og=new A.jO(B.a0,B.e,B.f,B.o,null,B.k,null,0,B.YN,null)
+B.YM=s([B.afV,B.agz],t.p)
+B.Og=new A.jO(B.a0,B.e,B.f,B.o,null,B.k,null,0,B.YM,null)
 B.R4=new A.cg(1,B.a4,B.Og,null)
 B.Z2=s([B.TA,B.d2,B.R4],t.p)
 B.a62=new A.vG(B.aB,B.e,B.f,B.j,null,B.k,null,0,B.Z2,null)
@@ -129461,8 +129461,8 @@ B.b7=new A.c5(8,null,null,null)
 B.lJ=new A.v(!0,B.i,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.agv=new A.aL("Neighbour / guest",null,B.lJ,null,null,null,null,null,null,null)
 B.R1=new A.cg(1,B.a4,B.agv,null)
-B.XR=s([B.TU,B.b7,B.R1],t.p)
-B.a63=new A.vG(B.aB,B.e,B.f,B.j,null,B.k,null,0,B.XR,null)
+B.XQ=s([B.TU,B.b7,B.R1],t.p)
+B.a63=new A.vG(B.aB,B.e,B.f,B.j,null,B.k,null,0,B.XQ,null)
 B.a65=new A.IC(1333)
 B.pu=new A.IC(2222)
 B.a66=new A.Y9(null,null)
@@ -129660,9 +129660,9 @@ B.a80=new A.vV(null)
 B.a81=new A.Ao(null)
 B.NY=new A.L(0.23529411764705882,0,0,0,B.l)
 B.Kt=new A.bX(0.5,B.ag,B.NY,B.Bp,10)
-B.XK=s([B.Kt],t.F)
+B.XJ=s([B.Kt],t.F)
 B.a61=new A.mx(B.ji,B.v)
-B.a82=new A.fw(null,null,null,B.XK,B.a61)
+B.a82=new A.fw(null,null,null,B.XJ,B.a61)
 B.a83=new A.r0(null,"",null)
 B.a84=new A.J5(0,"success")
 B.Gm=new A.J5(1,"dismissed")
@@ -130885,7 +130885,7 @@ return A.b([A.W(A.W(A.aR(),q),"Alphabetic"),A.W(A.W(A.aR(),q),"Ideographic")],t.
 s($,"bBX","bie",()=>{var q="PlaceholderAlignment"
 return A.b([A.W(A.W(A.aR(),q),"Baseline"),A.W(A.W(A.aR(),q),"AboveBaseline"),A.W(A.W(A.aR(),q),"BelowBaseline"),A.W(A.W(A.aR(),q),"Top"),A.W(A.W(A.aR(),q),"Bottom"),A.W(A.W(A.aR(),q),"Middle")],t.O)})
 r($,"bBN","bi7",()=>A.ec().ga7X()+"roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2")
-s($,"bB9","bhJ",()=>A.bn9(B.Xc))
+s($,"bB9","bhJ",()=>A.bn9(B.Xb))
 s($,"bB8","b28",()=>A.alV(A.bjN($.bhJ())))
 s($,"bxM","ed",()=>{var q,p=A.W(A.W(A.pm(),"window"),"screen")
 p=p==null?null:A.W(p,"width")
