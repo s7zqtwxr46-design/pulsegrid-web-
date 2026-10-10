@@ -115,6 +115,10 @@
       var slow = document.getElementById('pg-slow');
       if (slow) slow.classList.add('pg-show');
     }, 4000);
+    setTimeout(function () {
+      var slow = document.getElementById('pg-slow');
+      if (slow) slow.textContent = 'Still opening… check the internet, or close PulseGrid and open it again.';
+    }, 25000);
     window.addEventListener('flutter-first-frame', function () {
       var s = document.getElementById('pg-splash');
       if (!s) return;
