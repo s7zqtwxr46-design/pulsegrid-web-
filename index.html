@@ -1,46 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-IN">
 <head>
   <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
+    PulseGrid web app. `flutter build web --base-href /pulsegrid-web-/`
+    replaces /pulsegrid-web-/ below with the folder the site lives in.
+    The link preview (WhatsApp, Messages) needs full web addresses, so
+    the og: and twitter: tags spell out https://s7zqtwxr46-design.github.io/pulsegrid-web-/.
   -->
   <base href="/pulsegrid-web-/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="PulseGrid — healthcare where you live.">
+  <title>PulseGrid · Healthcare where you live</title>
+  <meta name="description" content="SOS help, medicine reminders, doctors and lab tests for your whole family, inside your housing society in Lucknow.">
+  <meta name="theme-color" content="#0A3DBA">
 
-  <!-- iOS meta tags & icons -->
+  <!-- Link preview on WhatsApp, Messages, Facebook and X -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PulseGrid">
+  <meta property="og:title" content="PulseGrid · Healthcare where you live">
+  <meta property="og:description" content="SOS help, medicine reminders, doctors and lab tests for your whole family, inside your housing society in Lucknow.">
+  <meta property="og:url" content="https://s7zqtwxr46-design.github.io/pulsegrid-web-/">
+  <meta property="og:image" content="https://s7zqtwxr46-design.github.io/pulsegrid-web-/og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PulseGrid: a heart with a pulse line, on blue">
+  <meta property="og:locale" content="en_IN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PulseGrid · Healthcare where you live">
+  <meta name="twitter:description" content="SOS help, medicine reminders, doctors and lab tests for your whole family.">
+  <meta name="twitter:image" content="https://s7zqtwxr46-design.github.io/pulsegrid-web-/og-image.jpg">
+
+  <!-- Home screen on iPad and iPhone: own icon, opens full screen -->
   <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="PulseGrid">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <meta name="application-name" content="PulseGrid">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>PulseGrid</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
   <link rel="manifest" href="manifest.json">
+
+  <style>
+    @font-face { font-family: Poppins; font-weight: 700; src: url("assets/assets/fonts/Poppins-Bold.ttf"); }
+    @font-face { font-family: Poppins; font-weight: 400; src: url("assets/assets/fonts/Poppins-Regular.ttf"); }
+    html, body { margin: 0; height: 100%; background: #0A3DBA; }
+    /* Shown while the app loads: laid out like the app's own first screen,
+       so the change-over can't be seen (lib/screens/onboarding/splash_screen.dart). */
+    #pg-splash {
+      position: fixed; inset: 0; z-index: 10;
+      display: flex; flex-direction: column; align-items: center;
+      background: linear-gradient(180deg, #0A3DBA 0%, #0077FF 60%, #00D1B2 100%);
+      color: #fff; font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      transition: opacity .35s ease;
+    }
+    #pg-splash.pg-hide { opacity: 0; pointer-events: none; }
+    #pg-splash .pg-top { flex: 3; }
+    #pg-splash .pg-bottom { flex: 4; }
+    #pg-splash .pg-logo {
+      width: 110px; height: 110px; box-sizing: border-box; border-radius: 30px;
+      background: rgba(255, 255, 255, .16); border: 1px solid rgba(255, 255, 255, .3);
+      display: flex; align-items: center; justify-content: center;
+    }
+    #pg-splash .pg-name { margin-top: 28px; font-size: 34px; font-weight: 700; letter-spacing: 7px; line-height: 1.2; }
+    #pg-splash .pg-sub { margin-top: 10px; font-size: 11.5px; letter-spacing: 3.2px; }
+    #pg-splash .pg-wait { position: relative; margin-top: 40px; width: 22px; height: 22px; }
+    #pg-splash .pg-spin {
+      width: 22px; height: 22px; box-sizing: border-box; border-radius: 50%;
+      border: 2px solid rgba(255, 255, 255, .2); border-top-color: rgba(255, 255, 255, .75);
+      animation: pg-turn .9s linear infinite;
+    }
+    @keyframes pg-turn { to { transform: rotate(360deg); } }
+    #pg-splash .pg-slow {
+      position: absolute; top: 36px; left: 50%; transform: translateX(-50%); white-space: nowrap;
+      font-size: 13px; opacity: 0; transition: opacity .4s;
+    }
+    #pg-splash .pg-slow.pg-show { opacity: .85; }
+    #pg-splash .pg-foot { margin-bottom: 28px; font-size: 11px; letter-spacing: 2.6px; color: rgba(255, 255, 255, .7); }
+  </style>
 </head>
 <body>
-  <!--
-    You can customize the "flutter_bootstrap.js" script.
-    This is useful to provide a custom configuration to the Flutter loader
-    or to give the user feedback during the initialization process.
+  <div id="pg-splash" role="status" aria-label="PulseGrid is opening">
+    <div class="pg-top"></div>
+    <div class="pg-logo">
+      <svg viewBox="0 0 512 512" width="96" height="96" aria-hidden="true">
+        <path d="M256 404 C 128 318 92 244 116 186 C 140 130 214 118 256 172 C 298 118 372 130 396 186 C 420 244 384 318 256 404 Z"
+              fill="none" stroke="#fff" stroke-width="30" stroke-linejoin="round"/>
+        <path d="M62 266 H 172 L 204 206 L 246 326 L 282 228 L 304 266 H 450"
+              fill="none" stroke="#fff" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div class="pg-name">PULSEGRID</div>
+    <div class="pg-sub">HEALTHCARE WHERE YOU LIVE</div>
+    <div class="pg-wait"><div class="pg-spin"></div><div class="pg-slow" id="pg-slow">The first time takes a few seconds…</div></div>
+    <div class="pg-bottom"></div>
+    <div class="pg-foot">CARE. CONNECT. COMMUNITIES.</div>
+  </div>
 
-    For more details:
-    * https://docs.flutter.dev/platform-integration/web/initialization
-  -->
+  <script>
+    // Android/Chrome offers its own "Install app" box; keep it for the
+    // app's "Install PulseGrid" button (lib/services/install_web.dart).
+    window.pgInstallPrompt = null;
+    window.addEventListener('beforeinstallprompt', function (e) {
+      e.preventDefault();
+      window.pgInstallPrompt = e;
+    });
+    window.addEventListener('appinstalled', function () { window.pgInstallPrompt = null; });
+
+    // Hide the loading screen once the app has drawn its first screen.
+    setTimeout(function () {
+      var slow = document.getElementById('pg-slow');
+      if (slow) slow.classList.add('pg-show');
+    }, 4000);
+    window.addEventListener('flutter-first-frame', function () {
+      var s = document.getElementById('pg-splash');
+      if (!s) return;
+      s.classList.add('pg-hide');
+      setTimeout(function () { s.remove(); }, 400);
+    });
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>

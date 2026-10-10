@@ -1,12 +1,16 @@
 {
+    "id": "./",
     "name": "PulseGrid",
     "short_name": "PulseGrid",
-    "start_url": ".",
+    "description": "SOS help, medicine reminders, doctors and lab tests for your whole family, inside your housing society in Lucknow.",
+    "lang": "en-IN",
+    "start_url": "./",
+    "scope": "./",
     "display": "standalone",
+    "orientation": "portrait-primary",
     "background_color": "#0A3DBA",
     "theme_color": "#0A3DBA",
-    "description": "PulseGrid — healthcare where you live.",
-    "orientation": "portrait-primary",
+    "categories": ["health", "medical", "lifestyle"],
     "prefer_related_applications": false,
     "icons": [
         {
